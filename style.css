@@ -1,6 +1,9 @@
 /* FOR DESKTOP VIEW */
 
 @media only screen and (min-width: 1024px) {
+  body{
+  
+  }
   nav {
     display: flex;
     justify-content: space-between;
@@ -65,7 +68,38 @@
     transform: translateY(4px);
   }
  
+
+  /*   FOR MAIN SECTION STYLING*/
+
+  .section-one{
+  width: fit-content;
+  }
   
+
+  .text-one{
+  width: 100vw;
+  font-size: 2.7em;
+   
+  }
+  .for-text-one{
+   width: 100vw;
+   text-align: center;
+   font-family: Katibeh, sans-serif;
+
+    
+    
+  }
+
+  .for-image-containter{
+  text-align: center;
+  }
+  .image-one{
+    width: 30%;
+    background-color: black;
+  ;
+  }
+
+
 
 }
 
