@@ -1,18 +1,16 @@
-
 /* FOR DESKTOP VIEW */
 
+@media only screen and (min-width: 1024px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
 
-@media only screen and (min-width: 1024px){
-
+ 
 }
-
 
 /* FOR MOBILE VIEW */
 
-
-
-@media only screen and (min-width: 800px){
-    
+@media only screen and (min-width: 800px) {
 }
-
-
