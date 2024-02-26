@@ -4,13 +4,78 @@
   nav {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0em .9em 0em .9em;
   }
 
+  .m-logo{
+    font-family: Pinyon Script, sans-serif;
+    border-radius: 50px;
+    
+
+  
+  }
+  a.link-logo {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    
+
+  }
+  h1.logo {
+    background-color: rgb(213, 213, 207);
+    padding: 2vw;
+    border-radius: 50%;
+    background: #ffffff;
+    border: solid black;
+    cursor: pointer;
+    border-radius: 20px 0px 50px 3px;
+    box-shadow: 10.21px 10.21px 32px #CCCCCC, -10.21px -10.21px 32px #FFFFFF;
+  
+  }
+
+  ul.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 4em;
+    padding: 0.9em;
+
+  }
+
+  a.all-links {
+    text-decoration: none;
+    color: black;
+   cursor: pointer;
+   font-size: 1rem;
+    
+
+   
+
+    
+  }
+
+  
+
+
+  li.links{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: Katibeh, sans-serif;
+    border-radius: 50%;
+    background-color: red;
+    padding: 20px 24px;
+    background-image: linear-gradient(180deg,#fff,#f5f5fa);
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
+
+  }
+  
  
+
+
+
 }
 
 /* FOR MOBILE VIEW */
 
-@media only screen and (min-width: 800px) {
-}
+/*@media only screen and (min-width: 800px) {
+}*/
