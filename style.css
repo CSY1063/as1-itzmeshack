@@ -61,7 +61,7 @@
   }
 
   .p-nav-links:active{
-    box-shadow: 5px 5px 17px 5px #000000;;
+    box-shadow: 5px 5px 17px 5px #ff0000;;
     transform: translateY(4px);
   }
  
