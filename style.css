@@ -1,10 +1,13 @@
 /* FOR DESKTOP VIEW */
 
-@media screen and (min-width: 1024px){
-  
-body{
-  background-image: url(images/bg1.svg);
-}
+@media screen and (min-width: 1024px) {
+
+  body {
+    background-image: url(images/bg1.svg);
+    width: fit-content;
+    height: fit-content;
+    background-color: #000000;
+  }
 
 
   nav {
@@ -15,20 +18,20 @@ body{
 
   a.link-logo {
     text-decoration: none;
-    color: red;
+    color: black;
     cursor: pointer;
   }
 
   h1.logo {
     background-color: rgb(213, 213, 207);
-    font-family:Pinyon Script, sans-serif;
+    font-family: Pinyon Script, sans-serif;
     padding: 2vw;
     border-radius: 50%;
     background: #ffffff;
-    border: solid black;
+    border: solid rgb(255, 0, 0);
     cursor: pointer;
     border-radius: 20px 0px 50px 3px;
-    box-shadow: 10.21px 10.21px 32px #cccccc, -10.21px -10.21px 32px #ffffff;
+    box-shadow: 10.21px 10.21px 32px #f80404, -10.21px -10.21px 32px #000000;
   }
 
   ul.nav-links {
@@ -95,7 +98,8 @@ body{
     font-family: 'Cabinet Grotesk', sans-serif;
     font-weight: bold;
     font-style: normal;
-    
+    color: white;
+
 
 
 
@@ -109,34 +113,51 @@ body{
   }
 
   .image-one {
-   width:10%;
-    padding: 30px;
-    box-shadow:  -5px -5px 17px #dedede,
-    5px 5px 17px #ffffff;
-    background-color: #ffffff;
+    width: 10%;
+    padding: 1rem;
+    box-shadow: -5px -5px 17px #000000,
+      5px 5px 17px #000000;
+    background-color: #000000;
     border-radius: 1px 90px 1px 90px;
+    border: 1px solid red;
+    cursor: pointer;
+    margin-top: 2em;
 
 
   }
-.text-two{
-  text-align: center;
-  padding: 10px 5px 10px 5px;
-}
-.for-text-two{
-  font-size: 1.9rem;
-  display: inline;
-  font-family: 'Cabinet Grotesk', sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  
-}
+
+  .image-one:hover {
+    background-color: #000000;
+    transition: all ease 1s;
+  }
+
+  .text-two {
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+  }
+
+  .for-text-two {
+    font-size: 1.9rem;
+    display: inline;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+
+  }
 
 }
 
 /* FOR MOBILE VIEW */
 
-/*@media only screen and (min-width: 800px) {
-}*/
+@media only screen and(max-width: 800px) {
+
+  body {
+    background-image: url(images/bg1.svg);
+    width: fit-content;
+    height: fit-content;
+    background-color: #000000;
+  }
 
 
-
+}
