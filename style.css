@@ -1,9 +1,7 @@
 /* FOR DESKTOP VIEW */
 
-@media only screen and (min-width: 1024px) {
-  body{
+@media screen and (min-width: 1024px){
   
-  }
   nav {
     display: flex;
     justify-content: space-between;
@@ -15,8 +13,10 @@
     color: red;
     cursor: pointer;
   }
+
   h1.logo {
     background-color: rgb(213, 213, 207);
+    font-family:Pinyon Script, sans-serif;
     padding: 2vw;
     border-radius: 50%;
     background: #ffffff;
@@ -45,11 +45,11 @@
     cursor: pointer;
     font-family: Katibeh, sans-serif;
     border-radius: 2em;
-    padding:.9em 2em;
+    padding: .9em 2em;
     background-image: linear-gradient(180deg, #fff, #f5f5fa);
     box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
       0 1px 3px 0 rgb(93 100 148 / 20%);
-      transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
 
 
@@ -59,50 +59,72 @@
     transform: scale(1.1);
     outline: 2px solid #ff0000;
     box-shadow: 4px 5px 17px -4px #000000;
-    
-  
+
+
   }
 
-  .p-nav-links:active{
-    box-shadow: 5px 5px 17px 5px #ff0000;;
+  .p-nav-links:active {
+    box-shadow: 5px 5px 17px 5px #ff0000;
+    ;
     transform: translateY(4px);
   }
- 
+
 
   /*   FOR MAIN SECTION STYLING*/
 
-  .section-one{
-   padding: 3em .9em;
+  .section-one {
+    padding: 3em .9em;
   }
-  
 
-  .text-one{
-  text-align: center;
-  padding: 10px 5px 10px 5px;
+
+  .text-one {
+    text-align: center;
+    padding: 10px 5px 10px 5px;
 
 
   }
-  .for-text-one{
+
+  .for-text-one {
     font-size: 2.6875rem;
     display: inline;
-   font-family: Katibeh, sans-serif;
- 
+    font-family: Katibeh, sans-serif;
+    font-weight: 0;
+    font-style: normal;
+    
 
-    
-    
+
+
+
   }
 
-  .for-image-containter{
+  .for-image-containter {
+    text-align: center;
+    margin-bottom: 7em;
+
+  }
+
+  .image-one {
+   width:10%;
+    padding: 30px;
+    box-shadow:  -5px -5px 17px #dedede,
+    5px 5px 17px #ffffff;
+    background-color: #ffffff;
+    border-radius: 1px 90px 1px 90px;
+
+
+  }
+.text-two{
   text-align: center;
-  margin-bottom: 7em;
-  }
-  .image-one{
-    width: 20%;
-    background-color: black;
-  ;
-  }
-
-
+  padding: 10px 5px 10px 5px;
+}
+.for-text-two{
+  font-size: 1.9rem;
+  display: inline;
+  font-family: Katibeh, sans-serif;
+  font-weight: 0;
+  font-style: normal;
+  
+}
 
 }
 
