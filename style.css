@@ -1,14 +1,11 @@
 /* FOR DESKTOP VIEW */
 
-@media screen and (min-width: 1024px) {
-
+@media only screen and (min-width: 1024px) {
   body {
     background-image: url(images/bg1.svg);
-    width: fit-content;
-    height: fit-content;
+
     background-color: #000000;
   }
-
 
   nav {
     display: flex;
@@ -53,77 +50,59 @@
     cursor: pointer;
     font-family: Katibeh, sans-serif;
     border-radius: 2em;
-    padding: .9em 2em;
+    padding: 0.9em 2em;
     background-image: linear-gradient(180deg, #fff, #f5f5fa);
     box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
       0 1px 3px 0 rgb(93 100 148 / 20%);
     transition: all 0.3s ease;
   }
 
-
-
   .p-nav-links:hover {
     color: #ff0000;
     transform: scale(1.1);
     outline: 2px solid #ff0000;
     box-shadow: 4px 5px 17px -4px #000000;
-
-
   }
 
   .p-nav-links:active {
     box-shadow: 5px 5px 17px 5px #ff0000;
-    ;
     transform: translateY(4px);
   }
-
 
   /*   FOR MAIN SECTION STYLING*/
 
   .section-one {
-    padding: 3em .9em;
+    padding: 3em 0.9em;
   }
-
 
   .text-one {
     text-align: center;
     padding: 10px 5px 10px 5px;
-
-
   }
 
   .for-text-one {
     font-size: 2.6875rem;
     display: inline;
-    font-family: 'Cabinet Grotesk', sans-serif;
+    font-family: "Cabinet Grotesk", sans-serif;
     font-weight: bold;
     font-style: normal;
     color: white;
-
-
-
-
-
   }
 
   .for-image-containter {
     text-align: center;
     margin-bottom: 7em;
-
   }
 
   .image-one {
     width: 10%;
     padding: 1rem;
-    box-shadow: -5px -5px 17px #000000,
-      5px 5px 17px #000000;
+    box-shadow: -5px -5px 17px #000000, 5px 5px 17px #000000;
     background-color: #000000;
     border-radius: 1px 90px 1px 90px;
     border: 1px solid red;
     cursor: pointer;
     margin-top: 2em;
-
-
   }
 
   .image-one:hover {
@@ -139,25 +118,39 @@
   .for-text-two {
     font-size: 1.9rem;
     display: inline;
-    font-family: 'Cabinet Grotesk', sans-serif;
+    font-family: "Cabinet Grotesk", sans-serif;
     font-weight: 500;
     font-style: normal;
     color: white;
-
   }
-
 }
 
 /* FOR MOBILE VIEW */
 
-@media only screen and(max-width: 800px) {
-
+@media only screen and (max-width: 800px) {
   body {
     background-image: url(images/bg1.svg);
-    width: fit-content;
-    height: fit-content;
+    height: 100vh;
+    width: 100vw;
     background-color: #000000;
   }
 
+  a.link-logo {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
 
+  h1.logo {
+    background-color: rgb(213, 213, 207);
+    font-family: Pinyon Script, sans-serif;
+    padding: 2vw;
+    border-radius: 50%;
+    width: 10vw;
+    background: #ffffff;
+    border: solid rgb(255, 0, 0);
+    cursor: pointer;
+    border-radius: 20px 0px 50px 3px;
+    box-shadow: 10.21px 10.21px 32px #f80404, -10.21px -10.21px 32px #000000;
+  }
 }
