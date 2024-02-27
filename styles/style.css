@@ -1,8 +1,16 @@
 /* FOR DESKTOP VIEW */
 
 @media only screen and (min-width: 1024px) {
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
   body {
-    background-image: url(images/bg1.svg);
+    background-image: url(/images/bg1.svg);
     background-color: #000000;
   }
 
@@ -10,6 +18,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0em 0.9em 0em 0.9em;
+    padding: .9em;
   }
 
   a.link-logo {
@@ -126,9 +135,15 @@
 
 /* FOR MOBILE VIEW */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
   body {
-    background-image: url(images/bg1.svg);
+    background-image: url(/images/bg1.svg);
     height: 100vh;
     width: 100vw;
     background-color: #000000;
