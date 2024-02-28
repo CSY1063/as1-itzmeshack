@@ -189,7 +189,7 @@
   }
 
   li.links {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     padding: 0.5em;
     color: white;
     display: block;
@@ -200,14 +200,14 @@
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
     backdrop-filter: blur(11.5px);
-    -webkit-backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(20.5px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     padding: 4em;
     border-radius: 50px 0px 50px 3px;
     position: fixed;
     top: 0;
-    right: -400px;
+    right:-400px;
     width: 200px;
     height: 100vh;
 
@@ -224,6 +224,10 @@
     top: 25px;
     left: 25px;
     cursor: pointer;
+    color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: .1em;
    
   }
 
@@ -238,7 +242,7 @@
   p.p-nav-links {
     display: inline;
     justify-items: left;
-    color: rgba(255, 255, 255, 0.622);
+    color: rgba(255, 255, 255, 0.869);
     cursor: pointer;
     font-family: Katibeh, sans-serif;
   }
