@@ -1,18 +1,14 @@
 /* FOR DESKTOP VIEW */
 
 @media only screen and (min-width: 1024px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  .open-menu{
-    display: none;
 
-  }
 
-  .close-menu{
-    display: none;
-  }
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
   body {
     background-image: url(/images/bg1.svg);
     background-color: #000000;
@@ -22,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0em 0.9em 0em 0.9em;
-    padding: 0.9em;
+    padding: .9em;
   }
 
   a.link-logo {
@@ -48,11 +44,6 @@
     list-style: none;
     gap: 4em;
     padding: 0.9em;
-   
-  }
-
-  .open-menu{
-    display: none;
   }
 
   a.all-links {
@@ -145,16 +136,17 @@
 /* FOR MOBILE VIEW */
 
 @media only screen and (max-width: 1024px) {
-  * {
-    padding: 0;
-    margin: 0;
-  }
+*{
+  padding: 0;
+  margin: 0;
+}
+
 
   body {
     background-image: url(/images/bg1.svg);
-    background-color: #000000;
-    color: white;
-    width: 80%;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
   }
 
   a.link-logo {
@@ -177,117 +169,77 @@
     box-shadow: 10.21px 10.21px 32px #f80404, -10.21px -10.21px 32px #000000;
   }
 
-  nav {
-    padding: 1em;
+  nav{
+    padding: .9em;
   }
+
 
   a.all-links {
     text-decoration: none;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    font-size: 1.7rem;
+    font-size: 1rem;
   }
 
-  li.links {
-    border-bottom: 1px solid black;
-    padding: 0.5em;
-    color: white;
-    display: block;
-    margin: 25px;
-  }
-
-  .mobile-nav {
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
-    backdrop-filter: blur(11.5px);
-    -webkit-backdrop-filter: blur(11.5px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 4em;
-    border-radius: 50px 0px 50px 3px;
-    position: fixed;
-    top: 0;
-    right: -400px;
-    width: 200px;
-    height: 100vh;
-
-    /* display: none;
-    */
-  }
-
-  ul.nav-links {
-    list-style: none;
-  }
-
-  .close-menu {
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
-   
-  }
-
-  .open-menu {
- 
-    position: absolute;
-    right: 30px;
-    top: 25px;
-    cursor: pointer;
-  }
 
   p.p-nav-links {
-    display: inline;
-    justify-items: left;
-    color: rgba(255, 255, 255, 0.622);
+    color: black;
     cursor: pointer;
     font-family: Katibeh, sans-serif;
+    border-radius: 2em;
+    padding: 0.9em 2em;
+    background-image: linear-gradient(180deg, #fff, #f5f5fa);
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
+      0 1px 3px 0 rgb(93 100 148 / 20%);
+    transition: all 0.3s ease;
   }
 
-  .image-one {
-    width: 25vw;
-    padding: 1rem;
-    box-shadow: -5px -5px 17px #000000, 5px 5px 17px #000000;
-    background-color: #000000;
-    border-radius: 1px 90px 1px 90px;
-    border: 1px solid red;
-    cursor: pointer;
-    margin-top: 2em;
+  .showNav{
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid black;
+    border-bottom: 0.2em solid black ;
+
+  }
+  .showNav::before{
+    content: '';
+    position: absolute;
+    width: 1.25em ;
+    margin-top: 0.3em;
+    border-top: 0.2em solid black;
   }
 
-  .section-one {
-    padding: 3em 0.9em;
+  nav{
+    display: none;
+    background-color: rgb(156, 23, 23);
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width:50%;
+    height: 100vh;
   }
 
-  .text-one {
-    text-align: center;
-    padding: 10px 5px 10px 5px;
+  #clicked .on{
+    display: block;
+
   }
 
-  .for-text-one {
-    width: 120%;
-    font-size: 1.8em;
-    font-family: "Cabinet Grotesk", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    color: white;
+  #clicked .off{
+    display: none;
   }
 
-  .for-image-containter {
-    text-align: center;
-    width: 120%;
+  #clicked:target .on{
+    display: none;
+
+  }
+  #clicked:target .off{
+    display: block;
   }
 
-  .text-two {
-    text-align: center;
-    padding: 10px 5px 10px 5px;
-    width: 120%;
+  #clicked:target nav{
+    display: block;
   }
 
-  .for-text-two {
-    font-family: "Cabinet Grotesk", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: white;
-    font-size: 1.3em;
-  }
+
 }
