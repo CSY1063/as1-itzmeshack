@@ -196,7 +196,7 @@
     margin: 25px;
   }
 
-  .mobile-nav {
+  .mobile-nav{
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
     backdrop-filter: blur(11.5px);
@@ -207,9 +207,10 @@
     border-radius: 50px 0px 50px 3px;
     position: fixed;
     top: 0;
-    right:-400px;
+    right:-400px ;
     width: 200px;
     height: 100vh;
+    z-index: 2;
 
     /* display: none;
     */

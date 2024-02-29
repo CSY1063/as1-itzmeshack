@@ -1,9 +1,19 @@
-var sidemenu = document.getElementById("sidemenu");
 
-function openmenu(){
-    sidemenu.style.right = "0";
-}
+var sidemenu = document.querySelector(".mobile-nav")
 
-function closemenu(){
-    sidemenu.style.right ='-200px';
-}
+    document.addEventListener("DOMContentLoaded", function() {
+        var svgElement = document.getElementById("Openmenu");
+        svgElement.addEventListener("click", function() {
+           
+            
+        });
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var svgElement2 = document.getElementById("Closemenu");
+        svgElement2.addEventListener("click", function() {
+          
+            
+        });
+    });
+
