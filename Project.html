@@ -1,118 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portforlio</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script defer src="/javascript/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="img/jpg"
+      href="images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@100,400,300,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portforlio</title>
-  <link rel="stylesheet" href="/styles/style.css" />
-  <script src="index.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet" />
-  <link rel="icon" type="img/jpg" href="images/favicon_io/favicon-32x32.png">
-  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@100,400,300,200&display=swap" rel="stylesheet">
-</head>
+  <body id="clicked">
+    <header>
+      <a href="#" class="on showNav"></a>
+      <a href="#" class="off showNav"></a>
+    </header>
 
-<body id="clicked">
-<header>
+    <div  class="nav">
+      <nav>
+        <div class="m-logo">
+          <a class="link-logo" href="index.html">
+            <h1 class="logo">M</h1>
+          </a>
+        </div>
 
+        <div  id="sidemenu" class="mobile-nav">
+          <ul class="nav-links">
+            <li class="links">
+              <a class="all-links" href="index.html">
+                <p class="p-nav-links">01. Home</p>
+              </a>
+            </li>
 
-  <a href="#" class="on showNav"></a>
-  <a href="#" class="off showNav"></a>
-</header>
+            <li class="links">
+              <a class="all-links" href="Project.html">
+                <p class="p-nav-links">02. Project</p>
+              </a>
+            </li>
+            <li class="links">
+              <a class="all-links" href="Video_demo.html">
+                <p class="p-nav-links">03. Video demo</p>
+              </a>
+            </li>
+            <li class="links">
+              <a class="all-links" href="Sitereport.html">
+                <p class="p-nav-links">04. Site report</p>
+              </a>
+            </li>
+            <li class="links">
+              <a class="all-links" href="Contact.html">
+                <p class="p-nav-links">05. Contact</p>
+              </a>
+            </li>
+            <!-- add close icons code here-->
+            <img
+              onclick="closemenu()"
+              src="/images/mobile_image/x.png"
+              class="close-menu"
+              alt="closehamburger-menu"
+            />
+          </ul>
+        </div>
+        <!-- add open(i.e hamburger-menu) icons code here-->
+        <img
+          onclick="openmenu()"
+          src="/images/mobile_image/menu-alt-2.png"
+          class="open-menu"
+          alt="hamburger-menu"
+        />
+      </nav>
+    </div>
 
-
-
-  <div class="nav">
-    <nav>
-      <div class="m-logo">
-        <a class="link-logo" href="index.html">
-          <h1 class="logo">M</h1>
-        </a>
-      </div>
-     
-
-      <div class="mobile-nav">
-        <ul class="nav-links">
-          <li class="links">
-            <a class="all-links" href="index.html">
-              <p class="p-nav-links">
-                01. Home
-  
-              </p>
-  
-            </a>
-          </li>
-  
-          <li class="links">
-            <a class="all-links" href="Project.html">
-              <p class="p-nav-links">
-                02. Project
-  
-              </p>
-            </a>
-          </li>
-          <li class="links">
-            <a class="all-links" href="Video_demo.html">
-              <p class="p-nav-links">
-                03. Video demo
-  
-              </p>
-            </a>
-          </li>
-          <li class="links">
-            <a class="all-links" href="Sitereport.html">
-              <p class="p-nav-links">
-                04. Site report
-  
-              </p>
-            </a>
-          </li>
-          <li class="links">
-            <a class="all-links" href="Contact.html">
-              <p class="p-nav-links">
-                05. Contact
-  
-              </p>
-            </a>
-          </li>
-        </ul>
-      </div>
+    
 
       
-    </nav>
-  </div>
-  <main class="section-one">
-    <section class="text-one">
-      <p class="for-text-one">
-        As a Software engineer, Frontend Developr & Designer
-        I design and code beautiful simple things, and I love what I do.
-      </p>
-    </section>
-    <div class="for-image-containter">
-        <img class="image-one" src="images/3d_image.png" alt="a human 3d face">
-    </div>
-    <section class="text-two">
-      <p class="for-text-two">
-        Hi, I'm Meshack. Nice to meet you.
-        Since beginning my journey as a software engineer 2 years ago. I've worked for agencies, consulted for startups, and collaborated with talented people
-        to create digital products for both business and consumer use. I'm quietly confident, naturally Curious, and perpetually working on improving my creativity.
-        If you click above links you will able to learn more about me.
-      </p>
-    </section>
-
-
-
-   
-  </main>
-
-  <main>
-    
-  </main>
-  
-
-</body>
-
+  </body>
 </html>

@@ -39,28 +39,28 @@
         <ul class="nav-links">
           <li class="links">
             <a class="all-links" href="index.html">
-              <p id="mobile-element" class="p-nav-links">01. Home</p>
+              <p class="p-nav-links">01. Home</p>
             </a>
           </li>
 
           <li class="links">
             <a class="all-links" href="Project.html">
-              <p id="mobile-element" class="p-nav-links">02. Project</p>
+              <p id="p-link" class="p-nav-links">02. Project</p>
             </a>
           </li>
           <li class="links">
             <a class="all-links" href="Video_demo.html">
-              <p id="mobile-element" class="p-nav-links">03. Video demo</p>
+              <p class="p-nav-links">03. Video demo</p>
             </a>
           </li>
           <li class="links">
             <a class="all-links" href="Sitereport.html">
-              <p id="mobile-element" class="p-nav-links">04. Site report</p>
+              <p class="p-nav-links">04. Site report</p>
             </a>
           </li>
           <li class="links">
             <a class="all-links" href="Contact.html">
-              <p id="mobile-element" class="p-nav-links">05. Contact</p>
+              <p class="p-nav-links">05. Contact</p>
             </a>
           </li>
 
@@ -73,28 +73,7 @@
       <img onclick="openmenu()" src="/images/mobile_image/menu-alt-2.png" class="open-menu" alt="hamburger-menu" />
     </nav>
   </div>
-  <div class="toggle-container">
-
-    <div class="theme-mode">
-
-
-      <i onclick="suntoggle()" id="sun-toggle" class="fa-regular fa-sun"></i>
-
-
-
-    </div>
-    <div class="theme-mode">
-
-      <i onclick="moontoggle()" id="moon-toggle" class="fa-regular fa-moon"></i>
-
-
-
-
-    </div>
-
-
-  </div>
-
+ 
   <main class="section-one">
     <section class="text-one">
       <p class="for-text-one">

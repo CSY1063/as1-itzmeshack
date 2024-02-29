@@ -115,56 +115,7 @@
   }
 
   /* FOR TOGGLE THEME BELOW*/
-  #moon-toggle{
- 
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    font-size: 1.1em;
-    background-color: rgb(0, 0, 0);
-    padding: .1em;
-    border-radius: 15px;
-    width: 30px;
-  }
-  .toggle-container{
-    display: flex;
-    position: absolute;
-    right: 30px;
-    top: 6em;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
-    backdrop-filter: blur(11.5px);
-    -webkit-backdrop-filter: blur(20.5px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-      cursor: pointer;
-    padding: .9em;
-    gap: .9em;
-    
-    cursor: pointer;
-    border-radius: 50px ;
-  
-  }
-  
-  #sun-toggle{
-    
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    font-size: 1.1em;
-    background-color: rgb(255, 255, 255);
-    padding: .1em;
-    border-radius: 15px;
-    width: 30px;
-  }
-  
-  
-  
-  
-  
-  .theme-mode{
-   
-    padding: .1em;
-    
-  }
+
 
 
 
@@ -347,7 +298,7 @@
   .open-menu {
  
     position: absolute;
-    right: 10px;
+    right: 30px;
     top: 25px;
     cursor: pointer;
     color: white;
@@ -357,10 +308,10 @@
     border: 2px solid rgb(255, 255, 255);
   }
 
-  .p-nav-links {
+  p.p-nav-links {
     display: inline;
     justify-items: left;
-    color: rgba(255, 255, 255, 0.976);
+    color: rgba(255, 255, 255, 0.869);
     cursor: pointer;
     font-family: Katibeh, sans-serif;
   }
@@ -399,7 +350,6 @@
     font-weight: bold;
     font-style: normal;
     color: white;
-    background-color: black;
   }
 
   .for-image-containter {
@@ -421,60 +371,4 @@
     font-size: 1.3em;
     background-color: #000000;
   }
-
-
-
-
-    /* FOR TOGGLE THEME BELOW*/
-    #moon-toggle{
- 
-      color: rgb(255, 255, 255);
-      cursor: pointer;
-      font-size: 1.3em;
-      background-color: rgb(0, 0, 0);
-      padding: .1em;
-      border-radius: 15px;
-      width: 30px;
-    }
-    .toggle-container{
-      display: flex;
-      position: absolute;
-      right: 1px;
-      top: 6em;
-
-      background: rgba(255, 255, 255, 0.05);
-      box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
-      backdrop-filter: blur(11.5px);
-      -webkit-backdrop-filter: blur(20.5px);
-      border-radius: 10px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-        cursor: pointer;
-      padding: .3em;
-      gap: .9em;
-      
-      cursor: pointer;
-      border-radius: 50px ;
-    
-    }
-    
-    #sun-toggle{
-      
-      color: rgb(0, 0, 0);
-      cursor: pointer;
-      font-size: 1.3em;
-      background-color: rgb(255, 255, 255);
-      padding: .1em;
-      border-radius: 15px;
-      width: 30px;
-    }
-    
-    
-    
-    
-    
-    .theme-mode{
-     
-      padding: .1em;
-      
-    }
 }

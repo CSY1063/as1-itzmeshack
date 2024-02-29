@@ -2,81 +2,103 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porject</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet" />
-    <link rel="icon" type="img/jpg" href="images/favicon_io/favicon-32x32.png">
-    <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@100,400,300,200&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portforlio</title>
+  <link rel="stylesheet" href="/styles/style.css" />
+  <script defer src="/javascript/index.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet" />
+  <link rel="icon" type="img/jpg" href="images/favicon_io/favicon-32x32.png">
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@100,400,300,200&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <header>
+<body id="clicked">
+  <header>
 
 
-        <a href="#" class="on showNav"></a>
-        <a href="#" class="off showNav"></a>
-      </header>
-    
+    <a href="#" class="on showNav"></a>
+    <a href="#" class="off showNav"></a>
+  </header>
+
+
+
   <div class="nav">
     <nav>
       <div class="m-logo">
         <a class="link-logo" href="index.html">
           <h1 class="logo">M</h1>
+
+
+
         </a>
+
+          <!-- add hamburger icons code here-->
+ 
       </div>
-     
 
-      <ul class="nav-links">
-        <li class="links">
-          <a class="all-links" href="index.html">
-            <p class="p-nav-links">
-              01. Home
 
-            </p>
+      <div id="sidemenu"  class="mobile-nav">
+        <ul class="nav-links">
+          <li class="links">
+            <a class="all-links" href="index.html">
+              <p class="p-nav-links">
+                01. Home
 
-          </a>
-        </li>
+              </p>
 
-        <li class="links">
-          <a class="all-links" href="Project.html">
-            <p class="p-nav-links">
-              02. Project
+            </a>
+          </li>
 
-            </p>
-          </a>
-        </li>
-        <li class="links">
-          <a class="all-links" href="#">
-            <p class="p-nav-links">
-              03. Video demo
+          <li class="links">
+            <a class="all-links" href="Project.html">
+              <p class="p-nav-links">
+                02. Project
 
-            </p>
-          </a>
-        </li>
-        <li class="links">
-          <a class="all-links" href="#">
-            <p class="p-nav-links">
-              04. Site report
+              </p>
+            </a>
+          </li>
+          <li class="links">
+            <a class="all-links" href="Video_demo.html">
+              <p class="p-nav-links">
+                03. Video demo
 
-            </p>
-          </a>
-        </li>
-        <li class="links">
-          <a class="all-links" href="#">
-            <p class="p-nav-links">
-              05. Contact
+              </p>
+            </a>
+          </li>
+          <li class="links">
+            <a class="all-links" href="Sitereport.html">
+              <p class="p-nav-links">
+                04. Site report
 
-            </p>
-          </a>
-        </li>
-      </ul>
+              </p>
+            </a>
+          </li>
+          <li class="links">
+            <a class="all-links" href="Contact.html">
+              <p class="p-nav-links">
+                05. Contact
+
+              </p>
+            </a>
+          </li>
+           <!-- add close icons code here-->
+           <img onclick="closemenu()" src="/images/mobile_image/x.png" class="close-menu" alt="closehamburger-menu">
+        </ul>
+
+
+       
+      </div>  
+      <img onclick="openmenu()" src="/images/mobile_image/menu-alt-2.png" class="open-menu" alt="hamburger-menu">
+       
+    
     </nav>
   </div>
+ 
+
+
 </body>
 
 </html>
