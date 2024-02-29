@@ -11,93 +11,89 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet" />
-  <link rel="icon" type="img/jpg" href="images/favicon_io/favicon-32x32.png">
-  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@100,400,300,200&display=swap" rel="stylesheet">
+  <link rel="icon" type="img/jpg" href="images/favicon_io/favicon-32x32.png" />
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@100,400,300,200&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body id="clicked">
   <header>
-
-
     <a href="#" class="on showNav"></a>
     <a href="#" class="off showNav"></a>
   </header>
-
-
 
   <div class="nav">
     <nav>
       <div class="m-logo">
         <a class="link-logo" href="index.html">
           <h1 class="logo">M</h1>
-
-
-
         </a>
-
-          <!-- add hamburger icons code here-->
- 
       </div>
 
-
-      <div id="sidemenu"  class="mobile-nav">
+      <div id="sidemenu" class="mobile-nav">
         <ul class="nav-links">
           <li class="links">
             <a class="all-links" href="index.html">
-              <p class="p-nav-links">
-                01. Home
-
-              </p>
-
+              <p id="mobile-element" class="p-nav-links">01. Home</p>
             </a>
           </li>
 
           <li class="links">
             <a class="all-links" href="Project.html">
-              <p class="p-nav-links">
-                02. Project
-
-              </p>
+              <p id="mobile-element" class="p-nav-links">02. Project</p>
             </a>
           </li>
           <li class="links">
             <a class="all-links" href="Video_demo.html">
-              <p class="p-nav-links">
-                03. Video demo
-
-              </p>
+              <p id="mobile-element" class="p-nav-links">03. Video demo</p>
             </a>
           </li>
           <li class="links">
             <a class="all-links" href="Sitereport.html">
-              <p class="p-nav-links">
-                04. Site report
-
-              </p>
+              <p id="mobile-element" class="p-nav-links">04. Site report</p>
             </a>
           </li>
           <li class="links">
             <a class="all-links" href="Contact.html">
-              <p class="p-nav-links">
-                05. Contact
-
-              </p>
+              <p id="mobile-element" class="p-nav-links">05. Contact</p>
             </a>
           </li>
-           <!-- add close icons code here-->
-           <img onclick="closemenu()" src="/images/mobile_image/x.png" class="close-menu" alt="closehamburger-menu">
+
+
+          <!-- add close icons code here-->
+          <img onclick="closemenu()" src="/images/mobile_image/x.png" class="close-menu" alt="closehamburger-menu" />
         </ul>
-
-
-       
-      </div>  
-      <img onclick="openmenu()" src="/images/mobile_image/menu-alt-2.png" class="open-menu" alt="hamburger-menu">
-       
-    
+      </div>
+      <!-- add open(i.e hamburger-menu) icons code here-->
+      <img onclick="openmenu()" src="/images/mobile_image/menu-alt-2.png" class="open-menu" alt="hamburger-menu" />
     </nav>
   </div>
- 
+  <div class="toggle-container">
 
+    <div id="theme1" class="theme-mode">
+
+
+      <i onclick="suntoggle()" id="sun-toggle" class="fa-regular fa-sun icon-sun"></i>
+
+
+
+    </div>
+    <div class="theme-mode2">
+
+      <i onclick="moontoggle()" id="moon-toggle" class="fa-regular fa-moon icon-moon"></i>
+
+
+
+
+    </div>
+
+
+  </div>
 
 </body>
 
