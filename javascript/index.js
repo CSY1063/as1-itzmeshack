@@ -1,19 +1,10 @@
+let sidemenu = document.getElementById('sidemenu');
 
-var sidemenu = document.querySelector(".mobile-nav")
+function openmenu(){
+    sidemenu.style.right = '1px';
 
-    document.addEventListener("DOMContentLoaded", function() {
-        var svgElement = document.getElementById("Openmenu");
-        svgElement.addEventListener("click", function() {
-           
-            
-        });
-    });
+}
 
-    document.addEventListener("DOMContentLoaded", function() {
-        var svgElement2 = document.getElementById("Closemenu");
-        svgElement2.addEventListener("click", function() {
-          
-            
-        });
-    });
-
+function closemenu(){
+    sidemenu.style.right = '-400px'
+}
