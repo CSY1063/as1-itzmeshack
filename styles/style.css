@@ -115,15 +115,20 @@
   }
 
   /* FOR TOGGLE THEME BELOW*/
-  #moon-toggle{
- 
-    color: rgb(255, 255, 255);
+  .icon-moon{
+    color: rgb(0, 0, 0);
     cursor: pointer;
-    font-size: 1.1em;
-    background-color: rgb(0, 0, 0);
+    font-size: 1.4em;
+    background-color: rgb(255, 0, 0);
     padding: .1em;
     border-radius: 15px;
     width: 30px;
+  }
+  
+
+  .icon-moon:hover{
+    background-color: rgb(255, 0, 0);
+    transition: all ease-in .3s;
   }
 
   
@@ -149,7 +154,7 @@
   .icon-sun{
     color: rgb(0, 0, 0);
     cursor: pointer;
-    font-size: 1.1em;
+    font-size: 1.4em;
     background-color: rgb(246, 255, 0);
     padding: .1em;
     border-radius: 15px;
@@ -175,7 +180,14 @@
   
     
   }
-
+  .theme-mode2{
+    padding: .1em;
+    padding: .1em;
+    border-radius: 19px;
+    width: 40px;
+  
+    
+  }
 
 
 
@@ -371,9 +383,13 @@
   .p-nav-links {
     display: inline;
     justify-items: left;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     font-family: Katibeh, sans-serif;
+  }
+
+  .p-nav-links:hover{
+    color: red;
   }
   
 
