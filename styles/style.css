@@ -9,49 +9,40 @@
   body {
     background-image: url(/images/bg1.svg);
     background-color: #000000;
-    transition: all ease 1.s;
   }
   body::-webkit-scrollbar {
     width: 1em;
   }
-   
+
   body::-webkit-scrollbar-track {
     background-color: #f5f5fa00;
   }
-   
+
   body::-webkit-scrollbar-thumb {
     background: rgb(247, 1, 1);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     backdrop-filter: blur(50.5px);
     -webkit-backdrop-filter: blur(20.5px);
-    border-bottom-left-radius:20px ;
+    border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 
-    border-top-left-radius:5px ;
+    border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-  
-  
   }
 
-
-
-
-  .open-menu{
-    display: none;
-
-  }
-
-  .close-menu{
+  .open-menu {
     display: none;
   }
 
+  .close-menu {
+    display: none;
+  }
 
   nav {
     display: flex;
     justify-content: space-between;
     padding: 0em 0.9em 0em 0.9em;
     padding: 0.9em;
-   
   }
 
   a.link-logo {
@@ -77,10 +68,9 @@
     list-style: none;
     gap: 4em;
     padding: 0.9em;
-   
   }
 
-  .open-menu{
+  .open-menu {
     display: none;
   }
 
@@ -115,24 +105,22 @@
   }
 
   /* FOR TOGGLE THEME BELOW*/
-  .icon-moon{
-    color: rgb(0, 0, 0);
+  #moon-toggle {
+    color: rgb(255, 255, 255);
     cursor: pointer;
-    font-size: 1.4em;
-    background-color: rgb(255, 0, 0);
-    padding: .1em;
+    font-size: 1.3em;
+    background-color: rgb(0, 0, 0);
+    padding: 0.1em;
     border-radius: 15px;
     width: 30px;
   }
-  
 
-  .icon-moon:hover{
+  .icon-moon:hover {
     background-color: rgb(255, 0, 0);
-    transition: all ease-in .3s;
+    transition: all ease-in 0.3s;
   }
 
-  
-  .toggle-container{
+  .toggle-container {
     display: flex;
     position: absolute;
     right: 30px;
@@ -143,55 +131,41 @@
     -webkit-backdrop-filter: blur(20.5px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-      cursor: pointer;
-    padding: .9em;
-    gap: .9em;
-    
     cursor: pointer;
-    border-radius: 50px ;
-  
+    padding: 0.9em;
+    gap: 0.9em;
+
+    cursor: pointer;
+    border-radius: 50px;
   }
-  .icon-sun{
+  .icon-sun {
     color: rgb(0, 0, 0);
     cursor: pointer;
     font-size: 1.4em;
     background-color: rgb(246, 255, 0);
-    padding: .1em;
+    padding: 0.1em;
     border-radius: 15px;
     width: 30px;
   }
-  
 
-  .icon-sun:hover{
+  .icon-sun:hover {
     background-color: rgb(255, 0, 0);
-    transition: all ease-in .3s;
+    transition: all ease-in 0.3s;
   }
-  
-  
-  
-  
-    
-  .theme-mode{
+
+  .theme-mode {
     background-color: rgb(255, 255, 255);
-    padding: .1em;
-    padding: .1em;
+    padding: 0.1em;
+    padding: 0.1em;
     border-radius: 19px;
     width: 40px;
-  
-    
   }
-  .theme-mode2{
-    padding: .1em;
-    padding: .1em;
+  .theme-mode2 {
+    padding: 0.1em;
+    padding: 0.1em;
     border-radius: 19px;
     width: 40px;
-  
-    
   }
-
-
-
-
 
   /*   FOR MAIN SECTION STYLING*/
 
@@ -228,9 +202,7 @@
     border: 1px solid red;
     cursor: pointer;
     margin-top: 2em;
-
   }
-   
 
   .image-one:hover {
     background-color: #000000;
@@ -251,6 +223,45 @@
     color: white;
     background-color: #000000;
   }
+
+  /* FOR PROJECT PAGE STYLING */
+  img.sample-one {
+    width: 25%;
+  }
+
+  .project-wrap {
+    display: grid;
+    gap: 1em;
+    padding: 1em;
+  }
+
+  .wrapping {
+    padding: 2em;
+  }
+
+  .pg-1 {
+    text-align: center;
+
+    padding: 0.9em;
+    display: grid;
+    gap: 2em;
+    border: 1.2px solid red;
+    position: relative;
+    cursor: pointer;
+    top: -0.2em;
+    border-radius: 20px 0px 50px 3px;
+    box-shadow: 10.21px 10.21px 32px #f80404, -10.21px -10.21px 32px #000000;
+  }
+
+  .descript {
+    background-color: #ffffffb6;
+    padding: 2em;
+    border: solid black;
+
+    border-radius: 50px;
+    font-family: "Cabinet Grotesk", sans-serif;
+    font-size: 1.2em;
+  }
 }
 
 /* FOR MOBILE VIEW */
@@ -270,25 +281,22 @@
   body::-webkit-scrollbar {
     width: 1em;
   }
-   
+
   body::-webkit-scrollbar-track {
     background-color: #f5f5fa00;
   }
-   
+
   body::-webkit-scrollbar-thumb {
     background: rgb(247, 1, 1);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     backdrop-filter: blur(50.5px);
     -webkit-backdrop-filter: blur(20.5px);
-    border-bottom-left-radius:20px ;
+    border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 
-    border-top-left-radius:5px ;
+    border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-  
-  
   }
-
 
   a.link-logo {
     text-decoration: none;
@@ -329,7 +337,7 @@
     margin: 25px;
   }
 
-  .mobile-nav{
+  .mobile-nav {
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
     backdrop-filter: blur(11.5px);
@@ -340,14 +348,11 @@
     border-radius: 50px 0px 50px 3px;
     position: fixed;
     top: 0;
-    right: -400px ;
+    right: -400px;
     width: 200px;
     height: 100vh;
     z-index: 2;
-    transition: all ease-out .7s;
-
-  
-    
+    transition: all ease-out 0.7s;
   }
 
   ul.nav-links {
@@ -362,20 +367,17 @@
     background-color: #ff0000c9;
     border: 1px solid rgba(0, 0, 0, 0.501);
     border-radius: 50%;
-    padding: .1em;
-    
-   
+    padding: 0.1em;
   }
 
   .open-menu {
- 
     position: absolute;
     right: 10px;
     top: 25px;
     cursor: pointer;
     color: white;
     background-color: #f8f8f8b7;
-    padding: .1em .2em;
+    padding: 0.1em 0.2em;
     border-radius: 40%;
     border: 2px solid rgb(255, 255, 255);
   }
@@ -388,13 +390,9 @@
     font-family: Katibeh, sans-serif;
   }
 
-  .p-nav-links:hover{
+  .p-nav-links:hover {
     color: red;
   }
-  
-
- 
-
 
   .image-one {
     width: 25vw;
@@ -446,68 +444,54 @@
     background-color: #000000;
   }
 
+  /* FOR TOGGLE THEME BELOW*/
+  #moon-toggle {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.3em;
+    background-color: rgb(0, 0, 0);
+    padding: 0.1em;
+    border-radius: 15px;
+    width: 30px;
+  }
+  .toggle-container {
+    display: flex;
+    position: absolute;
+    right: 1px;
+    top: 6em;
 
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(20.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    padding: 0.3em;
+    gap: 0.9em;
+    cursor: pointer;
+    border-radius: 50px;
+  }
 
+  .icon-sun {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 1.1em;
+    background-color: rgb(246, 255, 0);
+    padding: 0.1em;
+    border-radius: 15px;
+    width: 30px;
+  }
 
-    /* FOR TOGGLE THEME BELOW*/
-    #moon-toggle{
- 
-      color: rgb(255, 255, 255);
-      cursor: pointer;
-      font-size: 1.3em;
-      background-color: rgb(0, 0, 0);
-      padding: .1em;
-      border-radius: 15px;
-      width: 30px;
-    }
-    .toggle-container{
-      display: flex;
-      position: absolute;
-      right: 1px;
-      top: 6em;
+  .icon-sun:hover {
+    background-color: rgb(255, 0, 0);
+  }
 
-      background: rgba(255, 255, 255, 0.05);
-      box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
-      backdrop-filter: blur(11.5px);
-      -webkit-backdrop-filter: blur(20.5px);
-      border-radius: 10px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-        cursor: pointer;
-      padding: .3em;
-      gap: .9em;
-      
-      cursor: pointer;
-      border-radius: 50px ;
-    
-    }
-    
-    .icon-sun{
-      color: rgb(0, 0, 0);
-      cursor: pointer;
-      font-size: 1.1em;
-      background-color: rgb(246, 255, 0);
-      padding: .1em;
-      border-radius: 15px;
-      width: 30px;
-    }
-    
-  
-    .icon-sun:hover{
-      background-color: rgb(255, 0, 0);
-      transition: all ease-in .3s;
-    }
-    
-    
-    
-    
-    
-    .theme-mode{
-      background-color: rgb(255, 255, 255);
-      padding: .1em;
-      padding: .1em;
-      border-radius: 19px;
-      width: 40px;
-    
-      
-    }
+  .theme-mode {
+    background-color: rgb(255, 255, 255);
+    padding: 0.1em;
+    padding: 0.1em;
+    border-radius: 19px;
+    width: 40px;
+  }
 }

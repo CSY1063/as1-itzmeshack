@@ -1,4 +1,3 @@
-
 /* this whole  code open and close navigation tab on mobile and tablet */
 let sidemenu = document.getElementById("sidemenu");
 
@@ -15,9 +14,10 @@ function closemenu() {
 let x = document.getElementById("clicked");
 let togglcolor = document.getElementById("sun-toggle");
 let theme = document.getElementById("theme1");
+let btn1 = document.getElementById('moon-toggle')
 let maintext = document.getElementById("text-one");
 let secondtext = document.getElementById("text-two");
- for_nav = document.querySelectorAll('.p-nav-links');
+let for_nav = document.querySelectorAll('.p-nav-links');
 
 /**light mode */
 function suntoggle() {
@@ -32,8 +32,8 @@ function suntoggle() {
     secondtext.style.color = "#000000";
     secondtext.style.backgroundColor = "#ffffff";
 
-    for_nav.forEach(element => {
-        element.style.color = '#000000';
+    for_nav.forEach((box) => {
+        box.style.color = 'lightblue'; // Change the background color of each box
       });
 
 
