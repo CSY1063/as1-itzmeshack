@@ -1,0 +1,40 @@
+img.sample-one {
+    width: 65%;
+  
+  }
+
+  .project-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 50px;
+    padding: 5em;
+    
+  }
+
+  .wrapping {
+    background-color: gray;
+   padding:.8em .9em;
+   border-radius: 20px;
+   height: auto;
+  }
+
+  .pg-1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  .descript {
+  
+   
+  }
+  .descript-class{
+  color: rgb(0, 0, 0);
+  padding: .5em;
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  }
+
+
