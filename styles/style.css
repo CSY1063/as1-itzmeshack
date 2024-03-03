@@ -415,7 +415,7 @@
     font-size: 13px;
   }
 
-   /* FOR VIDEO DEMO SITE */
+   /* FOR DESKTOP VIDEO DEMO SITE */
    .video-section{
     background-color: grey;
     border-radius: 10px 10px 30px 5px;
@@ -438,7 +438,7 @@
    .video-descript {
     font-family: "Cherry Swash", serif; ;
     font-size: 20px;
-    padding: .93em;
+    padding: 2em;
    }
 
    .video-class{
@@ -909,6 +909,7 @@ a.git-links {
       height: auto;
       font-size: 15.4px;
       font-weight: 0;
+  
       
      }
   
