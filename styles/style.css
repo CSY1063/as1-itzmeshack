@@ -442,11 +442,22 @@
    }
 
    .video-class{
-    padding: 50px;
+    text-align: center;
    }
+
+   
    .video-container{
-    width: 50vw;
+    width: 60vw;
     padding: 30px;
+    border-radius: 50px;
+    text-align: center;
+   }
+
+   .descript-container{
+    background: #EEF0F4;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: inset 9.91px 9.91px 15px #D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
    }
 
 
@@ -871,5 +882,56 @@ a.git-links {
     padding: 1.2em;
     color: black;
   }
+
+
+
+     /* FOR VIDEO DEMO SITE */
+     .video-section{
+      background-color: grey;
+      box-shadow: 10.21px 10.21px 32px #f80404, -10.21px -10.21px 32px #000000;
+      background: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
+      backdrop-filter: blur(11.5px);
+      -webkit-backdrop-filter: blur(20.5px);
+      position: relative;
+      top: 3.4em;
+      border-radius: 10px;
+      box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
+        0 1px 3px 0 rgb(93 100 148 / 20%);
+      transition: all 0.3s ease;
+      width: 125%;
+      padding: 0px 0px 70px 0px;
+     }
+  
+     .video-descript {
+      font-family: "Cherry Swash", serif; ;
+      width: auto;
+      height: auto;
+      font-size: 15.4px;
+      font-weight: 0;
+      
+     }
+  
+     .video-container{
+       width: 70vw;
+       border-radius: 10px;
+       margin-top: 20px;
+
+
+      
+     }
+     .video-class{
+      text-align: center;
+     }
+  
+     .descript-container{
+      color: black;
+      background: #EEF0F4;
+      padding: 2em;
+      margin: 20px;
+      border-radius: 30px;
+      box-shadow: inset 9.91px 9.91px 15px #D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
+     }
+  
 
 }
