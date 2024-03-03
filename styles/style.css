@@ -92,6 +92,7 @@
     box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
       0 1px 3px 0 rgb(93 100 148 / 20%);
     transition: all 0.3s ease;
+   
   }
 
   .p-nav-links:hover {
@@ -251,6 +252,7 @@
     backdrop-filter: blur(11.5px);
     -webkit-backdrop-filter: blur(20.5px);
     height: auto;
+   
   }
 
   img.img-project {
@@ -292,6 +294,61 @@
     height: auto;
   }
 
+
+  /* FOR SITE REPORT*/
+
+  .site-report{
+    background-color: grey;
+    border-radius: 10px 10px 30px 5px;
+    box-shadow: 10.21px 10.21px 32px #f80404, -10.21px -10.21px 32px #000000;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(20.5px);
+    padding: 10em;
+    position: relative;
+    top: 4em;
+    border: 1px solid red;
+    border-radius: 40px 20px;
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
+      0 1px 3px 0 rgb(93 100 148 / 20%);
+    transition: all 0.3s ease;
+   
+  
+  }
+
+  h1.main-head-site{
+    color: rgb(126, 114, 114);
+    text-align: center;
+    padding: .5em;
+    font-family: 'Boska', serif;
+    font-size: 4em;
+  }
+
+  .site-container{
+  
+    background: #EEF0F4;
+    padding: 5em;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: inset 9.91px 9.91px 15px #D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
+  }
+  .site-descript{
+    color: rgb(126, 114, 114);
+    padding: 0.9em;
+    font-family: "Cabinet Grotesk", sans-serif;
+    font-size: 19px;
+    font-weight: bolder;
+
+    
+  }
+
+  .site-head{
+    font-family: "Cherry Swash", serif; 
+    padding: .9em;
+    color: black;
+  }
+
   /* FOR FOOTER SECTION  */
 
   main.footer {
@@ -300,6 +357,9 @@
     transition: all ease-in 0.5s;
     backdrop-filter: blur(11.5px);
     -webkit-backdrop-filter: blur(20.5px);
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+  
   }
 
   .footer-container {
@@ -309,7 +369,7 @@
     padding: 1em;
   }
 
-  a.insta-links {
+  a.linkdin-links {
     color: rgba(0, 128, 255, 0.281);
     font-size: 2em;
   }
@@ -319,7 +379,7 @@
   color: red;
  
 }
-  a.linkdin-links {
+  a.insta-links {
     color: rgb(187, 47, 9);
     font-size: 2em;
   }
@@ -446,6 +506,7 @@
     height: 100vh;
     z-index: 2;
     transition: all ease-out 0.7s;
+  
   }
 
   ul.nav-links {
@@ -603,12 +664,12 @@
     gap: 2em;
     padding: 1em;
     position: relative;
-    top: 4em;
+    top: 3.4em;
   }
 
   .wrapping {
     background-color: grey;
-    border-radius: 10px 10px 30px 5px;
+    border-radius: 30px;
     box-shadow: 10.21px 10.21px 32px #f80404, -10.21px -10.21px 32px #000000;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
@@ -619,14 +680,14 @@
   }
 
   img.img-project {
-    width: 20%;
+    width: 40%;
   }
   .head-project {
     color: rgb(126, 114, 114);
     padding: 0px 0px 20px 10px;
     font-family: "Cherry Swash", serif;
     display: flex;
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 400;
     font-style: normal;
   }
@@ -651,7 +712,7 @@
     color: rgb(126, 114, 114);
     padding: 0.9em;
     font-family: "Cabinet Grotesk", sans-serif;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: bolder;
     border-top: 2px solid black;
     height: auto;
@@ -661,6 +722,8 @@
 
 main.footer {
 height: 100vh;
+position: relative;
+top: 3em;
  width: 125%;
   background-color: #fafafa1e;
   backdrop-filter: blur(11.5px);
@@ -712,5 +775,65 @@ a.git-links {
   font-size: 13px;
 }
 
+
+
+
+
+  /* FOR SITE REPORT*/
+
+  .site-report{
+    background-color: grey;
+    box-shadow: 10.21px 10.21px 32px #f80404, -10.21px -10.21px 32px #000000;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(20.5px);
+    position: relative;
+    top: 3.4em;
+    border-radius: 10px;
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
+      0 1px 3px 0 rgb(93 100 148 / 20%);
+    transition: all 0.3s ease;
+    width: 125%;
+    padding: 0px 0px 70px 0px;
+  
+   
+  
+  }
+
+  h1.main-head-site{
+    color: rgb(126, 114, 114);
+    text-align: center;
+    font-family: 'Boska', serif;
+    font-size: 3em;
+    padding: 1em;
+  
+  }
+
+  .site-container{
+   margin-left: 1em;
+   margin-right: 1em;
+   height: auto;
+    background: #EEF0F4;
+    border-radius: 30px;
+    box-shadow: inset 9.91px 9.91px 15px #D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
+  }
+  .site-descript{
+    color: rgb(126, 114, 114);
+    padding: 0px 10px 60px 20px ;
+    font-family: "Cabinet Grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    height: auto;
+    width: auto;
+
+    
+  }
+
+  .site-head{
+    font-family: "Cherry Swash", serif; 
+    padding: 1.2em;
+    color: black;
+  }
 
 }
