@@ -9,7 +9,7 @@
   body {
     background-image: url(/images/bg1.svg);
     background-color: #000000;
-    transition: all ease-in .8s;
+    transition: all ease-in 0.8s;
   }
   body::-webkit-scrollbar {
     width: 1em;
@@ -168,7 +168,7 @@
     width: 40px;
   }
 
-  /*   FOR MAIN SECTION STYLING*/
+  /*   FOR MAIN HOME SECTION STYLING*/
 
   .section-one {
     padding: 3em 0.9em;
@@ -187,7 +187,7 @@
     font-style: normal;
     color: white;
     background-color: #000000;
-    transition: all ease-in .8s;
+    transition: all ease-in 0.8s;
   }
 
   .for-image-containter {
@@ -196,7 +196,7 @@
   }
 
   .image-one {
-    width: 10%;
+    width: 14%;
     padding: 1rem;
     box-shadow: -5px -5px 17px #000000, 5px 5px 17px #000000;
     background-color: #000000;
@@ -208,7 +208,8 @@
 
   .image-one:hover {
     background-color: #000000;
-    transition: all ease 1s;
+    transition: all ease-in 1.6s;
+    transform: rotate(-360deg);
   }
 
   .text-two {
@@ -217,33 +218,31 @@
   }
 
   .for-text-two {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     display: inline;
     font-family: "Cabinet Grotesk", sans-serif;
     font-weight: 500;
     font-style: normal;
     color: white;
     background-color: #000000;
-    transition: all ease-in .8s;
+    transition: all ease-in 0.8s;
   }
 
   /* FOR PROJECT PAGE STYLING */
 
-  .project-wrap{
+  .project-wrap {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5em;
     padding: 3.5em;
-    border: 1px solid red ;
+    border: 1px solid red;
     border-radius: 40px 20px;
     box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
       0 1px 3px 0 rgb(93 100 148 / 20%);
     transition: all 0.3s ease;
-
-
   }
 
-  .wrapping{
+  .wrapping {
     background-color: grey;
     border-radius: 10px 10px 30px 5px;
     box-shadow: 10.21px 10.21px 32px #f80404, -10.21px -10.21px 32px #000000;
@@ -254,52 +253,110 @@
     height: auto;
   }
 
-  img.img-project{
+  img.img-project {
     width: 35%;
   }
-  .head-project{
-    color:rgb(126, 114, 114);
-    padding: 0px 0px 20px 10px ;
+  .head-project {
+    color: rgb(126, 114, 114);
+    padding: 0px 0px 20px 10px;
     font-family: "Cherry Swash", serif;
     display: flex;
     font-size: 1.7em;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
   }
-  .simple-1{
+  .simple-1 {
     font-size: 2.5em;
     color: rgba(255, 0, 0, 0.281);
   }
-  .simple-2{
+  .simple-2 {
     font-size: 2.5em;
     color: green;
   }
-  .simple-3{
+  .simple-3 {
     font-size: 2.5em;
     color: cyan;
   }
-  .simple-4{
+  .simple-4 {
     font-size: 2.5em;
     color: rgba(255, 0, 238, 0.284);
   }
 
-
-  .descript{
-    color:rgb(126, 114, 114);
-    padding: .9em;
+  .descript {
+    color: rgb(126, 114, 114);
+    padding: 0.9em;
     font-family: "Cabinet Grotesk", sans-serif;
     font-size: 19px;
     font-weight: bolder;
     border-top: 2px solid black;
     height: auto;
+  }
 
+  /* FOR FOOTER SECTION  */
+
+  main.footer {
+    height: 100vh;
+    background-color: #fafafa1e;
+    transition: all ease-in 0.5s;
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(20.5px);
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+  }
+
+  a.insta-links {
+    color: rgba(0, 128, 255, 0.281);
+    font-size: 2em;
+  }
+  
+.insta-links:hover{
+  transition: all ease-in .2s;
+  color: red;
+ 
+}
+  a.linkdin-links {
+    color: rgb(187, 47, 9);
+    font-size: 2em;
+  }
+
+  .linkdin-links:hover{
+    transition: all ease-in .2s;
+    color: red;
+   
+  }
+  a.git-links {
+    color: rgba(255, 0, 238, 0.284);
+    font-size: 2em;
+  }
+
+  .git-links:hover{
+    transition: all ease-in .2s;
+    color: red;
+   
+  }
+  .copy-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8em;
+  }
+  .copywright {
+    font-family: "Cabinet Grotesk", sans-serif;
+    font-size: 1.9em;
+  }
+
+  .name {
+    font-family: "Cherry Swash", serif;
+    font-size: 13px;
   }
 }
 
-
 /* FOR MOBILE VIEW */
-
-
 
 @media only screen and (max-width: 1024px) {
   * {
@@ -312,7 +369,7 @@
     background-color: #000000;
     color: white;
     width: 80%;
-    transition: all ease-in .8s;
+    transition: all ease-in 0.8s;
   }
   body::-webkit-scrollbar {
     width: 1em;
@@ -441,6 +498,12 @@
     margin-top: 2em;
   }
 
+  .image-one:hover {
+    background-color: #000000;
+    transition: all ease-in 1.6s;
+    transform: rotate(-360deg);
+  }
+
   .section-one {
     padding: 3em 0.9em;
   }
@@ -458,7 +521,7 @@
     font-style: normal;
     color: white;
     background-color: black;
-    transition: all ease-in .8s;
+    transition: all ease-in 0.8s;
   }
 
   .for-image-containter {
@@ -479,7 +542,7 @@
     color: white;
     font-size: 1.3em;
     background-color: #000000;
-    transition: all ease-in .8s;
+    transition: all ease-in 0.8s;
   }
 
   /* FOR TOGGLE THEME BELOW*/
@@ -532,28 +595,18 @@
     width: 40px;
   }
 
-
   /* FOR PROJECT PAGE STYLING */
 
-  .project-wrap{
-   display: grid;
-   grid-template-rows: repeat(2, 1fr);
-   gap: 2em;
-   padding: 1em;
-   position: relative;
-   top: 4em;
- 
-   
-
-  
-   
-   
-  
- 
-
+  .project-wrap {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2em;
+    padding: 1em;
+    position: relative;
+    top: 4em;
   }
 
-  .wrapping{
+  .wrapping {
     background-color: grey;
     border-radius: 10px 10px 30px 5px;
     box-shadow: 10.21px 10.21px 32px #f80404, -10.21px -10.21px 32px #000000;
@@ -563,45 +616,40 @@
     -webkit-backdrop-filter: blur(20.5px);
     height: auto;
     width: 92vw;
-  
-   
   }
 
-  img.img-project{
+  img.img-project {
     width: 20%;
   }
-  .head-project{
-    color:rgb(126, 114, 114);
-    padding: 0px 0px 20px 10px ;
+  .head-project {
+    color: rgb(126, 114, 114);
+    padding: 0px 0px 20px 10px;
     font-family: "Cherry Swash", serif;
     display: flex;
     font-size: 1em;
-  font-weight: 400;
-  font-style: normal;
-   
+    font-weight: 400;
+    font-style: normal;
   }
-  .simple-1{
+  .simple-1 {
     font-size: 2.5em;
     color: rgba(255, 0, 0, 0.281);
   }
-  .simple-2{
+  .simple-2 {
     font-size: 2.5em;
     color: green;
   }
-  .simple-3{
+  .simple-3 {
     font-size: 2.5em;
     color: cyan;
   }
-  .simple-4{
+  .simple-4 {
     font-size: 2.5em;
     color: rgba(255, 0, 238, 0.284);
   }
 
-
-  .descript{
-  
-    color:rgb(126, 114, 114);
-    padding: .9em;
+  .descript {
+    color: rgb(126, 114, 114);
+    padding: 0.9em;
     font-family: "Cabinet Grotesk", sans-serif;
     font-size: 19px;
     font-weight: bolder;
@@ -609,8 +657,60 @@
     height: auto;
   }
 
+/* FOR FOOTER SECTION  */
+
+main.footer {
+height: 100vh;
+ width: 125%;
+  background-color: #fafafa1e;
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(20.5px);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1em;
+ 
+
+}
+
+a.insta-links {
+  color: rgba(0, 128, 255, 0.281);
+  font-size: 2em;
+text-decoration: none;
+}
 
 
+
+a.linkdin-links {
+  color: rgb(187, 47, 9);
+  font-size: 2em;
+}
+a.git-links {
+  color: rgba(255, 0, 238, 0.284);
+  font-size: 2em;
+}
+
+.copy-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8em;
+  color: #000000;
+}
+
+
+.copywright {
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-size: 1.9em;
+}
+
+.name {
+  font-family: "Cherry Swash", serif;
+  font-size: 13px;
+}
 
 
 }
