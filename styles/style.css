@@ -268,28 +268,32 @@
     padding: 0px 0px 20px 10px;
     font-family: "Cherry Swash", serif;
     display: flex;
-    font-size: 1.7em;
     font-weight: 400;
     font-style: normal;
   }
+  .head-project-2{
+    font-size: 3.5em;
+
+  }
 
   .simple-1 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: rgba(255, 0, 0, 0.281);
   }
 
   .simple-2 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: green;
   }
 
   .simple-3 {
-    font-size: 2.5em;
+    font-size: 1.5em;
+    font-family: "Cherry Swash", serif;
     color: cyan;
   }
 
   .simple-4 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: rgba(255, 0, 238, 0.284);
   }
 
@@ -413,11 +417,16 @@
   .copywright {
     font-family: "Cabinet Grotesk", sans-serif;
     font-size: 1.9em;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .name {
     font-family: "Cherry Swash", serif;
     font-size: 13px;
+    font-weight: 200;
   }
 
   /* FOR DESKTOP VIDEO DEMO SITE */
@@ -1056,6 +1065,7 @@
     padding: 0.8em;
     color: #000000;
   }
+  
 
   .copywright {
     font-family: "Cabinet Grotesk", sans-serif;
