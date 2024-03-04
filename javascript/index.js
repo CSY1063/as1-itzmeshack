@@ -38,9 +38,9 @@ function suntoggle() {
 
 
   } else if (window.innerWidth > 1028) {
-  /** desktop */
+  /** desktop  for light mode */
     x.style.backgroundColor = "#ffffff";
-    theme.style.backgroundColor = " #ff0000";
+    theme.style.backgroundColor = " #ffff00";
 
     maintext.style.color = "#000000";
     maintext.style.backgroundColor = "#ffffff";
@@ -73,9 +73,9 @@ function moontoggle() {
       });
 
   } else if (window.innerWidth > 1028) {
-    /** desktop */
+    /** desktop dark mode */
     x.style.backgroundColor = "#000000";
-    theme.style.backgroundColor = " #ff0000";
+    theme.style.backgroundColor = " #ffffff";
 
     maintext.style.color = "#ffffff";
     maintext.style.backgroundColor = "#000000";
@@ -88,6 +88,14 @@ function moontoggle() {
         element.style.color= "#000000"
        });
   }
+}
+
+
+/** on click function for submit button in contact file */
+
+
+function submit(){
+ alert('I know I will Update it soon!')
 }
 
 

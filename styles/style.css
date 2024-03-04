@@ -1,6 +1,6 @@
 /* FOR DESKTOP VIEW */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   * {
     margin: 0;
     padding: 0;
@@ -8,9 +8,10 @@
 
   body {
     background-image: url(/images/bg1.svg);
-    background-color: #000000;
+    background-color: #ffffff;
     transition: all ease-in 0.8s;
   }
+
   body::-webkit-scrollbar {
     width: 1em;
   }
@@ -139,6 +140,7 @@
     cursor: pointer;
     border-radius: 50px;
   }
+
   .icon-sun {
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -161,6 +163,7 @@
     border-radius: 19px;
     width: 40px;
   }
+
   .theme-mode2 {
     padding: 0.1em;
     padding: 0.1em;
@@ -185,8 +188,8 @@
     font-family: "Cabinet Grotesk", sans-serif;
     font-weight: bold;
     font-style: normal;
-    color: white;
-    background-color: #000000;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
     transition: all ease-in 0.8s;
   }
 
@@ -223,8 +226,8 @@
     font-family: "Cabinet Grotesk", sans-serif;
     font-weight: 500;
     font-style: normal;
-    color: white;
-    background-color: #000000;
+    color: rgb(0, 0, 0);
+ 
     transition: all ease-in 0.8s;
   }
 
@@ -256,6 +259,7 @@
   img.img-project {
     width: 35%;
   }
+
   .head-project {
     color: rgb(126, 114, 114);
     padding: 0px 0px 20px 10px;
@@ -265,18 +269,22 @@
     font-weight: 400;
     font-style: normal;
   }
+
   .simple-1 {
     font-size: 2.5em;
     color: rgba(255, 0, 0, 0.281);
   }
+
   .simple-2 {
     font-size: 2.5em;
     color: green;
   }
+
   .simple-3 {
     font-size: 2.5em;
     color: cyan;
   }
+
   .simple-4 {
     font-size: 2.5em;
     color: rgba(255, 0, 238, 0.284);
@@ -292,7 +300,7 @@
     height: auto;
   }
 
-  /* FOR SITE REPORT*/
+  /* FOR DESKTOP SITE REPORT*/
 
   .site-report {
     background-color: grey;
@@ -328,6 +336,7 @@
     box-shadow: inset 9.91px 9.91px 15px #d9dade,
       inset -9.91px -9.91px 15px #ffffff;
   }
+
   .site-descript {
     color: rgb(126, 114, 114);
     padding: 0.9em;
@@ -370,6 +379,7 @@
     transition: all ease-in 0.2s;
     color: red;
   }
+
   a.insta-links {
     color: rgb(187, 47, 9);
     font-size: 2em;
@@ -379,6 +389,7 @@
     transition: all ease-in 0.2s;
     color: red;
   }
+
   a.git-links {
     color: rgba(255, 0, 238, 0.284);
     font-size: 2em;
@@ -388,12 +399,14 @@
     transition: all ease-in 0.2s;
     color: red;
   }
+
   .copy-container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0.8em;
   }
+
   .copywright {
     font-family: "Cabinet Grotesk", sans-serif;
     font-size: 1.9em;
@@ -450,7 +463,6 @@
 
   /* FOR DESKTOP CONTACT SITE */
   .contact-info {
-   
     padding: 10em;
     position: relative;
     top: 4em;
@@ -459,23 +471,25 @@
     box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
       0 1px 3px 0 rgb(93 100 148 / 20%);
     transition: all 0.3s ease;
-    background: linear-gradient(300deg,deepskyblue,#218c7c,#dee3e1,#ff00bb);
-  background-size: 240% 240%;
-  animation: gradient-animation 4s ease infinite;
-}
+    background: linear-gradient(300deg, deepskyblue, #218c7c, #dee3e1, #ff00bb);
+    background-size: 240% 240%;
+    animation: gradient-animation 4s ease infinite;
+  }
 
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
   }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-  }
+
   .contact-image {
     text-align: center;
     position: relative;
@@ -483,27 +497,21 @@
     width: auto;
     top: -10rem;
     margin: 1em;
-    
   }
+
   .contact-image-1 {
     width: 13%;
     border-radius: 5% 5% 80% 80%;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
     border-left: 1px solid black;
-    background: linear-gradient(145deg, #FFFFFF, #C1C3C6);
-    box-shadow: inset 9.91px 9.91px 15px #D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
+    background: linear-gradient(145deg, #ffffff, #c1c3c6);
+    box-shadow: inset 9.91px 9.91px 15px #d9dade,
+      inset -9.91px -9.91px 15px #ffffff;
     transform: scale(1.5);
     box-shadow: 4px 5px 17px -4px #000000;
-  
-  }
-  .contact-image-1:hover {
-    color: #ff0000;
-    transform: scale(1.5);
-    box-shadow: 4px 5px 17px -4px #000000;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all ease-in .4s;
+
+
 
     background: linear-gradient(
       300deg,
@@ -519,7 +527,17 @@
     font-size: 15px;
     font-family: "Boska", serif;
     font-weight: "";
-    color: white;
+      color: white;
+  }
+
+  .contact-image-1:hover {
+    color: #ff0000;
+    transform: scale(1.7);
+    box-shadow: 4px 5px 17px -4px #000000;
+    font-weight: 500;
+    cursor: pointer;
+
+
   }
 
   .contact-image-1:active {
@@ -530,7 +548,7 @@
   .info {
     color: rgb(126, 114, 114);
     text-align: center;
-    padding: 0.5em;
+    padding: 0.9em;
     font-family: "Boska", serif;
     font-size: 4em;
   }
@@ -614,6 +632,7 @@
     box-sizing: border-box;
     outline: none;
   }
+
   .text-textarea {
     padding: 16px 30px 10px 10px;
     width: 35vw;
@@ -653,6 +672,7 @@
     font-weight: "";
     color: white;
   }
+
   .btn-submit-form:hover {
     color: #ff0000;
     transform: scale(1.1);
@@ -669,9 +689,11 @@
     0% {
       background-position: 0% 50%;
     }
+
     50% {
       background-position: 100% 50%;
     }
+
     100% {
       background-position: 0% 50%;
     }
@@ -681,7 +703,7 @@
     text-align: center;
     padding: 1em;
   }
-
+}
 
 /* FOR MOBILE VIEW */
 
@@ -693,11 +715,12 @@
 
   body {
     background-image: url(/images/bg1.svg);
-    background-color: #000000;
+    background-color: #ffffff;
     color: white;
     width: 80%;
     transition: all ease-in 0.8s;
   }
+
   body::-webkit-scrollbar {
     width: 1em;
   }
@@ -846,8 +869,7 @@
     font-family: "Cabinet Grotesk", sans-serif;
     font-weight: bold;
     font-style: normal;
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
     transition: all ease-in 0.8s;
   }
 
@@ -866,10 +888,9 @@
     font-family: "Cabinet Grotesk", sans-serif;
     font-weight: 300;
     font-style: normal;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.3em;
-    background-color: #000000;
-    transition: all ease-in 0.8s;
+    
   }
 
   /* FOR TOGGLE THEME BELOW*/
@@ -882,6 +903,7 @@
     border-radius: 15px;
     width: 30px;
   }
+
   .toggle-container {
     display: flex;
     position: absolute;
@@ -922,7 +944,7 @@
     width: 40px;
   }
 
-  /* FOR PROJECT PAGE STYLING */
+  /* FOR MOBILE PROJECT PAGE STYLING */
 
   .project-wrap {
     display: grid;
@@ -948,6 +970,7 @@
   img.img-project {
     width: 40%;
   }
+
   .head-project {
     color: rgb(126, 114, 114);
     padding: 0px 0px 20px 10px;
@@ -957,18 +980,22 @@
     font-weight: 400;
     font-style: normal;
   }
+
   .simple-1 {
     font-size: 2.5em;
     color: rgba(255, 0, 0, 0.281);
   }
+
   .simple-2 {
     font-size: 2.5em;
     color: green;
   }
+
   .simple-3 {
     font-size: 2.5em;
     color: cyan;
   }
+
   .simple-4 {
     font-size: 2.5em;
     color: rgba(255, 0, 238, 0.284);
@@ -984,7 +1011,7 @@
     height: auto;
   }
 
-  /* FOR FOOTER SECTION  */
+  /* FOR MOBILE FOOTER SECTION  */
 
   main.footer {
     height: 100vh;
@@ -1013,6 +1040,7 @@
     color: rgb(187, 47, 9);
     font-size: 2em;
   }
+
   a.git-links {
     color: rgba(255, 0, 238, 0.284);
     font-size: 2em;
@@ -1036,7 +1064,7 @@
     font-size: 13px;
   }
 
-  /* FOR SITE REPORT*/
+  /* FOR MOBILE SITE REPORT*/
 
   .site-report {
     background-color: grey;
@@ -1072,6 +1100,7 @@
     box-shadow: inset 9.91px 9.91px 15px #d9dade,
       inset -9.91px -9.91px 15px #ffffff;
   }
+
   .site-descript {
     color: rgb(126, 114, 114);
     padding: 0px 10px 60px 20px;
@@ -1088,7 +1117,7 @@
     color: black;
   }
 
-  /* FOR VIDEO DEMO SITE */
+  /* FOR MOBILE VIDEO DEMO SITE */
   .video-section {
     background-color: grey;
     box-shadow: 10.21px 10.21px 32px #f80404, -10.21px -10.21px 32px #000000;
@@ -1119,6 +1148,7 @@
     border-radius: 10px;
     margin-top: 20px;
   }
+
   .video-class {
     text-align: center;
   }
@@ -1131,5 +1161,257 @@
     border-radius: 30px;
     box-shadow: inset 9.91px 9.91px 15px #d9dade,
       inset -9.91px -9.91px 15px #ffffff;
+  }
+
+  /* FOR MOBILE CONTACT SITE */
+  .contact-info {
+    width: 124%;
+    position: relative;
+    top: 4em;
+    border: 1px solid red;
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
+      0 1px 3px 0 rgb(93 100 148 / 20%);
+    transition: all 0.3s ease;
+    background: linear-gradient(300deg, deepskyblue, #218c7c, #dee3e1, #ff00bb);
+    background-size: 240% 240%;
+    animation: gradient-animation 4s ease infinite;
+
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .contact-image {
+    height: 0vh;
+    text-align: center;
+  }
+
+  .contact-image-1 {
+    position: relative;
+
+    width: auto;
+    top: -3vw;
+
+    width: 13%;
+    border-radius: 5% 5% 80% 80%;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    background: linear-gradient(145deg, #ffffff, #c1c3c6);
+    box-shadow: inset 9.91px 9.91px 15px #d9dade,
+      inset -9.91px -9.91px 15px #ffffff;
+    transform: scale(1.5);
+    box-shadow: 4px 5px 17px -4px #000000;
+
+
+
+    background: linear-gradient(
+      300deg,
+      deepskyblue,
+      #1608ef,
+      #ef1508,
+      #218c7c,
+      #dee3e1,
+      #ff00bb
+    );
+    background-size: 360% 360%;
+    animation: gradient-animation 6s ease infinite;
+    font-size: 15px;
+    font-family: "Boska", serif;
+    font-weight: "";
+      color: white;
+  }
+
+  .contact-image-1:hover {
+    color: #ff0000;
+    transform: scale(1.7);
+    box-shadow: 4px 5px 17px -4px #000000;
+    font-weight: 500;
+    cursor: pointer;
+   
+
+   
+  }
+
+  .contact-image-1:active {
+    box-shadow: 5px 5px 17px 5px #ff0000;
+    transform: translateY(4px);
+  }
+
+  .info {
+    color: rgb(126, 114, 114);
+    padding: 1.4em;
+    font-family: "Boska", serif;
+    font-size: 27px;
+    width: auto;
+    height: 0vh;
+    font-weight: bolder;
+  }
+
+  .sub-info {
+    color: rgba(255, 0, 0, 0.309);
+    font-family: "Cherry Swash", serif;
+    font-size: 22px;
+    padding: 2.4em;
+    height: 0vh;
+  }
+
+  .contact-container {
+    margin: 0px 10px 30px 10px;
+    background: #eef0f4;
+    padding: 5em;
+    border-radius: 20px;
+    box-shadow: inset 9.91px 9.91px 15px #d9dade,
+      inset -9.91px -9.91px 15px #ffffff;
+  }
+
+  .flex-division {
+    display: grid;
+    gap: 1em;
+    gap: 0.5em;
+    padding: 1em;
+  }
+
+  .grid-division {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1em;
+    padding: 1em;
+  }
+
+  .text-input-1 {
+    padding: 16px 30px 10px 10px;
+    width: 55vw;
+    border: none;
+    font-family: "Cherry Swash", serif;
+    border-radius: 12px;
+    font-size: 20px;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+    background: #eef0f4;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .text-input-2 {
+    padding: 16px 30px 10px 10px;
+    width: 55vw;
+    border: none;
+    font-family: "Cherry Swash", serif;
+    border-radius: 12px;
+    font-size: 20px;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+    background: #eef0f4;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .text-email {
+    padding: 16px 30px 10px 10px;
+    width: 55vw;
+    border: none;
+    font-family: "Boska", serif;
+    border-radius: 12px;
+    font-size: 20px;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+    background: #eef0f4;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .text-subject {
+    padding: 16px 30px 10px 10px;
+    width: 55vw;
+    border: none;
+    font-family: "Boska", serif;
+    border-radius: 12px;
+    font-size: 20px;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+    background: #eef0f4;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .text-textarea {
+    padding: 16px 30px 10px 10px;
+    width: 55vw;
+    height: 30vh;
+    border: none;
+    font-family: "Boska", serif;
+    border-radius: 12px;
+    font-size: 20px;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+    background: #eef0f4;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .btn-submit-form {
+    padding: 1em;
+    outline: none;
+    border-radius: 12px;
+    width: 55vw;
+    border: none;
+    background: linear-gradient(72deg, #50d0af, #c3462a);
+    background-size: 400% 400%;
+    cursor: pointer;
+    background: linear-gradient(
+      300deg,
+      deepskyblue,
+      #1608ef,
+      #ef1508,
+      #218c7c,
+      #dee3e1,
+      #ff00bb
+    );
+    background-size: 360% 360%;
+    animation: gradient-animation 6s ease infinite;
+    font-size: 15px;
+    font-family: "Boska", serif;
+    font-weight: "";
+    color: white;
+  }
+
+  .btn-submit-form:hover {
+    color: #ff0000;
+    transform: scale(1.1);
+    box-shadow: 4px 5px 17px -4px #000000;
+    font-weight: 500;
+  }
+
+  .btn-submit-form:active {
+    box-shadow: 5px 5px 17px 5px #ff0000;
+    transform: translateY(4px);
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .btn-container {
+    text-align: center;
+    padding: 1em;
   }
 }
