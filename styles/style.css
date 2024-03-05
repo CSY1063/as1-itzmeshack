@@ -452,10 +452,12 @@
     font-family: "Cherry Swash", serif;
     font-size: 20px;
     padding: 2em;
+   
   }
 
   .video-class {
     text-align: center;
+   
   }
 
   .video-container {
@@ -463,6 +465,7 @@
     padding: 30px;
     border-radius: 50px;
     text-align: center;
+    border: none;
   }
 
   .descript-container {
@@ -982,35 +985,51 @@
   img.img-project {
     width: 40%;
   }
+   
+
 
   .head-project {
     color: rgb(126, 114, 114);
     padding: 0px 0px 20px 10px;
     font-family: "Cherry Swash", serif;
     display: flex;
-    font-size: 2em;
     font-weight: 400;
     font-style: normal;
   }
+  .head-project-2{
+    font-size: 3.5em;
+
+  }
 
   .simple-1 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: rgba(255, 0, 0, 0.281);
   }
 
   .simple-2 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: green;
   }
 
   .simple-3 {
-    font-size: 2.5em;
+    font-size: 1.5em;
+    font-family: "Cherry Swash", serif;
     color: cyan;
   }
 
   .simple-4 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: rgba(255, 0, 238, 0.284);
+  }
+
+  .descript {
+    color: rgb(126, 114, 114);
+    padding: 0.9em;
+    font-family: "Cabinet Grotesk", sans-serif;
+    font-size: 19px;
+    font-weight: bolder;
+    border-top: 2px solid black;
+    height: auto;
   }
 
   .descript {
@@ -1058,23 +1077,27 @@
     font-size: 2em;
   }
 
+  
   .copy-container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0.8em;
-    color: #000000;
   }
-  
 
   .copywright {
     font-family: "Cabinet Grotesk", sans-serif;
     font-size: 1.9em;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .name {
     font-family: "Cherry Swash", serif;
     font-size: 13px;
+    font-weight: 200;
   }
 
   /* FOR MOBILE SITE REPORT*/
