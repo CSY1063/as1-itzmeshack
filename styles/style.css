@@ -52,6 +52,9 @@
     color: black;
     cursor: pointer;
   }
+  .active{
+    color: blue; 
+  }
 
   h1.logo {
     background-color: rgb(213, 213, 207);
@@ -94,10 +97,9 @@
     box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
       0 1px 3px 0 rgb(93 100 148 / 20%);
     transition: all 0.3s ease;
-    outline: none;
-    border: none;
+   
   }
-
+  
   .p-nav-links:hover {
     color: #ff0000;
     transform: scale(1.1);
@@ -108,6 +110,8 @@
     box-shadow: 5px 5px 17px 5px #ff0000;
     transform: translateY(4px);
   }
+
+  
 
   /* FOR TOGGLE THEME BELOW*/
   #moon-toggle {
@@ -178,6 +182,21 @@
 
   .section-one {
     padding: 3em 0.9em;
+    background-color: grey;
+    border-radius: 10px 10px 30px 5px;
+    box-shadow: 10.21px 10.21px 32px #f80404, -10.21px -10.21px 32px #000000;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(20.5px);
+    padding: 10em;
+    position: relative;
+    top: 4em;
+    border: 1px solid red;
+    border-radius: 40px 20px;
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
+      0 1px 3px 0 rgb(93 100 148 / 20%);
+    transition: all 0.3s ease;
   }
 
   .text-one {
@@ -192,7 +211,7 @@
     font-weight: bold;
     font-style: normal;
     color: rgb(0, 0, 0);
-    background-color: #ffffff;
+    
     transition: all ease-in 0.8s;
   }
 
@@ -230,7 +249,6 @@
     font-weight: 500;
     font-style: normal;
     color: rgb(0, 0, 0);
- 
     transition: all ease-in 0.8s;
   }
 
@@ -794,6 +812,8 @@
     display: block;
     margin: 25px;
   }
+
+
 
   .mobile-nav {
     background: rgba(255, 255, 255, 0.05);
