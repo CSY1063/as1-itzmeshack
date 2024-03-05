@@ -810,7 +810,7 @@
     width: 200px;
     height: 100vh;
     z-index: 2;
-    transition: all ease-out 0.7s;
+    transition: all ease-out 0.9s;
   }
 
   ul.nav-links {
@@ -820,6 +820,7 @@
   .close-menu {
     position: absolute;
     top: 25px;
+    width: 7%;
     left: 25px;
     cursor: pointer;
     background-color: #ff0000c9;
@@ -832,12 +833,14 @@
     position: absolute;
     right: 10px;
     top: 25px;
+    width: 7%;
+    border: 1px solid red;
     cursor: pointer;
     color: white;
     background-color: #f8f8f8b7;
     padding: 0.1em 0.2em;
     border-radius: 40%;
-    border: 2px solid rgb(255, 255, 255);
+  
   }
 
   .p-nav-links {
