@@ -30,7 +30,6 @@ function suntoggle() {
     maintext.style.backgroundColor = "#ffffff";
 
     secondtext.style.color = "#000000";
-    secondtext.style.backgroundColor = "#ffffff";
 
     for_nav.forEach(element => {
         element.style.color = '#000000';
@@ -43,10 +42,10 @@ function suntoggle() {
     theme.style.backgroundColor = " #ffff00";
 
     maintext.style.color = "#000000";
-    maintext.style.backgroundColor = "#ffffff";
+   
 
     secondtext.style.color = "#000000";
-    secondtext.style.backgroundColor = "#ffffff";
+
   }
 
   for_nav.forEach(element => {
@@ -65,7 +64,6 @@ function moontoggle() {
     maintext.style.backgroundColor = "#000000";
 
     secondtext.style.color = "#ffffff";
-    secondtext.style.backgroundColor = "#000000";
 
 
     for_nav.forEach(element => {
@@ -78,10 +76,10 @@ function moontoggle() {
     theme.style.backgroundColor = " #ffffff";
 
     maintext.style.color = "#ffffff";
-    maintext.style.backgroundColor = "#000000";
+
 
     secondtext.style.color = "#ffffff";
-    secondtext.style.backgroundColor = "#000000";
+    
 
 
     for_nav.forEach(element => {

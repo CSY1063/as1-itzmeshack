@@ -373,7 +373,7 @@
   .site-head {
     font-family: "Cherry Swash", serif;
     padding: 0.9em;
-    color: black;
+    color: rgba(255, 0, 0, 0.691);
   }
 
   /* FOR FOOTER SECTION  */
@@ -579,7 +579,8 @@
   }
 
   .info {
-    color: rgb(126, 114, 114);
+    color: rgba(180, 35, 35, 0.165);
+   
     text-align: center;
     padding: 0.9em;
     font-family: "Boska", serif;
@@ -587,9 +588,10 @@
   }
 
   .sub-info {
-    color: rgba(255, 0, 0, 0.309);
-    font-family: "Cherry Swash", serif;
+    color: rgba(0, 0, 0, 0.309);
+    font-family:  "Boska", serif;
     font-size: 22px;
+    font-weight: bold;
     padding: 1em;
   }
 
@@ -738,9 +740,17 @@
   }
 }
 
+
+
+
+
+
+
+
+
 /* FOR MOBILE VIEW */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1180px){
   * {
     padding: 0;
     margin: 0;
@@ -810,7 +820,7 @@
     padding: 0.5em;
     color: white;
     display: block;
-    margin: 25px;
+   
   }
 
 
@@ -830,7 +840,7 @@
     width: 200px;
     height: 100vh;
     z-index: 2;
-    transition: all ease-out 0.9s;
+    transition: all ease-out 0.6s;
   }
 
   ul.nav-links {
@@ -875,6 +885,8 @@
     color: red;
   }
 
+  /*  FOR MOBILE MAIN HOME PAGE*/
+
   .image-one {
     width: 25vw;
     padding: 1rem;
@@ -894,7 +906,10 @@
 
   .section-one {
     padding: 3em 0.9em;
+    
   }
+
+ 
 
   .text-one {
     text-align: center;
@@ -1147,7 +1162,7 @@
     color: rgb(126, 114, 114);
     text-align: center;
     font-family: "Boska", serif;
-    font-size: 3em;
+    font-size: 1.5em;
     padding: 1em;
   }
 
@@ -1173,8 +1188,10 @@
 
   .site-head {
     font-family: "Cherry Swash", serif;
-    padding: 1.2em;
-    color: black;
+    font-size: 1em;
+    padding: 1em;
+    color: rgba(255, 0, 0, 0.691);
+
   }
 
   /* FOR MOBILE VIDEO DEMO SITE */
@@ -1312,19 +1329,24 @@
   }
 
   .info {
-    color: rgb(126, 114, 114);
+   
+
+    color: rgba(180, 35, 35, 0.165);
+    
+
     padding: 1.4em;
+
     font-family: "Boska", serif;
-    font-size: 27px;
+    font-size: 5vw;
     width: auto;
     height: 0vh;
     font-weight: bolder;
   }
 
   .sub-info {
-    color: rgba(255, 0, 0, 0.309);
-    font-family: "Cherry Swash", serif;
-    font-size: 22px;
+    color: rgba(0, 0, 0, 0.309);
+    font-family: "Boska", serif;;
+    font-size: 5vw;
     padding: 2.4em;
     height: 0vh;
   }
@@ -1474,4 +1496,7 @@
     text-align: center;
     padding: 1em;
   }
+
+
+
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portforlio</title>
     <link rel="stylesheet" href="/styles/style.css" />
-    <script defer src="/javascript/index.js"></script>
+    <script defer src="/javascript/index_2.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -48,7 +48,7 @@
     />
   </head>
 
-  <body id="clicked">
+  <body  id="clicked">
     <header>
       
     
@@ -60,7 +60,9 @@
         </a>
       </div>
 
-      <div id="sidemenu" class="mobile-nav">
+
+  
+      <div  onclick="closemenu()" id="sidemenu" class="mobile-nav">
         <ul class="nav-links">
           <li class="links">
             <a class="all-links" href="index.html">
@@ -98,6 +100,7 @@
           alt="closehamburger-menu"
         />
       </div>
+      
       <!-- add open(i.e hamburger-menu) icons code here-->
       <img
         onclick="openmenu()"
@@ -128,6 +131,7 @@
     </div>
 
     <main class="section-one">
+      <div class="section-container">
       <div class="text-one">
         <p id="text-one" class="for-text-one">
           As a Software engineer, Frontend Developr & Designer I design and code
@@ -151,6 +155,7 @@
           If you click above links you will able to learn more about me.
         </p>
       </div>
+    </div>
     </main>
 
     <div class="footer">
