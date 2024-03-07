@@ -169,14 +169,11 @@
         Css which ran all process without any errors.
       </p>
       <div class="slider">
-
-        
-        <div class="site-valid-image"> 
-         
+        <div class="site-valid-image">
           <img class="valid-container" src="/images/web_report_img/index_file.png" alt="validation images" />
-        
+
           <img class="valid-container" src="/images/web_report_img/index_file2.png" alt="validation images" />
-         
+
           <img class="valid-container" src="/images/web_report_img/project_file.png" alt="validation images" />
           <img class="valid-container" src="/images/web_report_img/project_file2.png" alt="validation images" />
           <img class="valid-container" src="/images/web_report_img/site_file.png" alt="validation images" />

@@ -17,7 +17,7 @@ let togglcolor = document.getElementById("sun-toggle");
 let theme = document.getElementById("theme1");
 let maintext = document.getElementById("text-one");
 let secondtext = document.getElementById("text-two");
- for_nav = document.querySelectorAll('.p-nav-links');
+for_nav = document.querySelectorAll(".p-nav-links");
 
 /**light mode */
 function suntoggle() {
@@ -31,25 +31,21 @@ function suntoggle() {
 
     secondtext.style.color = "#000000";
 
-    for_nav.forEach(element => {
-        element.style.color = '#000000';
-      });
-
-
+    for_nav.forEach((element) => {
+      element.style.color = "#000000";
+    });
   } else if (window.innerWidth > 1028) {
-  /** desktop  for light mode */
+    /** desktop  for light mode */
     x.style.backgroundColor = "#ffffff";
     theme.style.backgroundColor = " #ffff00";
 
     maintext.style.color = "#000000";
-   
 
     secondtext.style.color = "#000000";
-
   }
 
-  for_nav.forEach(element => {
-    element.style.color = '#000000';
+  for_nav.forEach((element) => {
+    element.style.color = "#000000";
   });
 }
 
@@ -65,11 +61,9 @@ function moontoggle() {
 
     secondtext.style.color = "#ffffff";
 
-
-    for_nav.forEach(element => {
-       element.style.color= "#ffffff"
-      });
-
+    for_nav.forEach((element) => {
+      element.style.color = "#ffffff";
+    });
   } else if (window.innerWidth > 1028) {
     /** desktop dark mode */
     x.style.backgroundColor = "#000000";
@@ -77,24 +71,57 @@ function moontoggle() {
 
     maintext.style.color = "#ffffff";
 
-
     secondtext.style.color = "#ffffff";
-    
 
-
-    for_nav.forEach(element => {
-        element.style.color= "#000000"
-       });
+    for_nav.forEach((element) => {
+      element.style.color = "#000000";
+    });
   }
 }
 
-
 /** on click function for submit button in contact file */
 
-
-function submit(){
- alert('I know I will Update it soon!')
+function submit() {
+  alert("I know I will Update it soon!");
 }
 
+/** function for image slider in site report */
 
+let slides = document.querySelectorAll(".site-valid-image img");
+let slideIndex = 0;
+let intervalid = null;
 
+//initializeSlider();
+
+document.addEventListener("DOMContentLoaded", initializeSlider);
+
+function initializeSlider() {
+  if (slides.length > 0) {
+    slides[slideIndex].classList.add("displaySlide");
+    intervalid = setInterval(nextSlide, 10000);
+  }
+}
+
+function showSlide(index) {
+  if (index >= slides.length) {
+    slideIndex = 0;
+  } else if (index < 0) {
+    slideIndex = slides.length - 1;
+  }
+
+  slides.forEach((slide) => {
+    slide.classList.remove("displaySlide");
+  });
+
+  slides[slideIndex].classList.add("displaySlide");
+}
+
+function preSlide() {
+  slideIndex--;
+  showSlide(slideIndex);
+}
+
+function nextSlide() {
+  slideIndex++;
+  showSlide(slideIndex);
+}

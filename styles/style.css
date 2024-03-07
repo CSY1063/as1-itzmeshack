@@ -7,7 +7,7 @@
   }
 
   body {
-    background-image: url(/images/bg1.svg);
+    background-image: url(/images/background/bg1.svg);
     background-color: #ffffff;
     transition: all ease-in 0.8s;
   }
@@ -52,8 +52,8 @@
     color: black;
     cursor: pointer;
   }
-  .active{
-    color: blue; 
+  .active {
+    color: blue;
   }
 
   h1.logo {
@@ -84,7 +84,6 @@
     color: black;
     cursor: pointer;
     font-size: 1rem;
-    
   }
 
   .p-nav-links {
@@ -97,9 +96,8 @@
     box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
       0 1px 3px 0 rgb(93 100 148 / 20%);
     transition: all 0.3s ease;
-   
   }
-  
+
   .p-nav-links:hover {
     color: #ff0000;
     transform: scale(1.1);
@@ -110,8 +108,6 @@
     box-shadow: 5px 5px 17px 5px #ff0000;
     transform: translateY(4px);
   }
-
-  
 
   /* FOR TOGGLE THEME BELOW*/
   #moon-toggle {
@@ -211,7 +207,7 @@
     font-weight: bold;
     font-style: normal;
     color: rgb(0, 0, 0);
-    
+
     transition: all ease-in 0.8s;
   }
 
@@ -289,9 +285,8 @@
     font-weight: 400;
     font-style: normal;
   }
-  .head-project-2{
+  .head-project-2 {
     font-size: 3.5em;
-
   }
 
   .simple-1 {
@@ -374,6 +369,72 @@
     font-family: "Cherry Swash", serif;
     padding: 0.9em;
     color: rgba(255, 0, 0, 0.691);
+  }
+  .slider {
+    position: relative;
+    background: #eef0f4;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+    margin: auto;
+    overflow: hidden;
+    padding: 4em;
+  }
+
+  .slider button {
+    font-size: 1.7em;
+    background-color: rgba(254, 254, 254, 0.345);
+    color: #000000;
+    outline: none;
+    position: absolute;
+    border: none;
+    top: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box;
+   
+  }
+  .slider button:hover {
+    color: #ff0000;
+    transform: scale(1.1);
+    box-shadow: 4px 5px 17px -4px #000000;
+  }
+
+  .slider button:active {
+    box-shadow: 5px 5px 17px 5px #ff0000;
+    transform: translateY(4px);
+  }
+  .pre-btn {
+    left: 0.3em;
+     
+    
+  }
+
+  .next-btn {
+    right: 0.3em;
+  }
+
+  .slider img {
+    width: 100%;
+    border-radius: 5px;
+    display: none;
+  }
+ 
+
+  img.displaySlide {
+   display: block;
+  }
+
+  
+ 
+  .site-image{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em;
+  }
+  img.sample-images{
+    
+    width: 50%;
   }
 
   /* FOR FOOTER SECTION  */
@@ -470,12 +531,10 @@
     font-family: "Cherry Swash", serif;
     font-size: 20px;
     padding: 2em;
-   
   }
 
   .video-class {
     text-align: center;
-   
   }
 
   .video-container {
@@ -544,8 +603,6 @@
     transform: scale(1.5);
     box-shadow: 4px 5px 17px -4px #000000;
 
-
-
     background: linear-gradient(
       300deg,
       deepskyblue,
@@ -560,7 +617,7 @@
     font-size: 15px;
     font-family: "Boska", serif;
     font-weight: "";
-      color: white;
+    color: white;
   }
 
   .contact-image-1:hover {
@@ -569,8 +626,6 @@
     box-shadow: 4px 5px 17px -4px #000000;
     font-weight: 500;
     cursor: pointer;
-
-
   }
 
   .contact-image-1:active {
@@ -580,7 +635,7 @@
 
   .info {
     color: rgba(180, 35, 35, 0.165);
-   
+
     text-align: center;
     padding: 0.9em;
     font-family: "Boska", serif;
@@ -589,7 +644,7 @@
 
   .sub-info {
     color: rgba(0, 0, 0, 0.309);
-    font-family:  "Boska", serif;
+    font-family: "Boska", serif;
     font-size: 22px;
     font-weight: bold;
     padding: 1em;
@@ -740,17 +795,9 @@
   }
 }
 
-
-
-
-
-
-
-
-
 /* FOR MOBILE VIEW */
 
-@media only screen and (max-width: 1180px){
+@media only screen and (max-width: 1180px) {
   * {
     padding: 0;
     margin: 0;
@@ -820,10 +867,7 @@
     padding: 0.5em;
     color: white;
     display: block;
-   
   }
-
-
 
   .mobile-nav {
     background: rgba(255, 255, 255, 0.05);
@@ -870,7 +914,6 @@
     background-color: #f8f8f8b7;
     padding: 0.1em 0.2em;
     border-radius: 40%;
-  
   }
 
   .p-nav-links {
@@ -906,10 +949,7 @@
 
   .section-one {
     padding: 3em 0.9em;
-    
   }
-
- 
 
   .text-one {
     text-align: center;
@@ -943,7 +983,6 @@
     font-style: normal;
     color: rgb(0, 0, 0);
     font-size: 1.3em;
-    
   }
 
   /* FOR TOGGLE THEME BELOW*/
@@ -1023,8 +1062,6 @@
   img.img-project {
     width: 40%;
   }
-   
-
 
   .head-project {
     color: rgb(126, 114, 114);
@@ -1034,9 +1071,8 @@
     font-weight: 400;
     font-style: normal;
   }
-  .head-project-2{
+  .head-project-2 {
     font-size: 3.5em;
-
   }
 
   .simple-1 {
@@ -1115,7 +1151,6 @@
     font-size: 2em;
   }
 
-  
   .copy-container {
     display: flex;
     align-items: center;
@@ -1191,7 +1226,6 @@
     font-size: 1em;
     padding: 1em;
     color: rgba(255, 0, 0, 0.691);
-
   }
 
   /* FOR MOBILE VIDEO DEMO SITE */
@@ -1293,8 +1327,6 @@
     transform: scale(1.5);
     box-shadow: 4px 5px 17px -4px #000000;
 
-
-
     background: linear-gradient(
       300deg,
       deepskyblue,
@@ -1309,7 +1341,7 @@
     font-size: 15px;
     font-family: "Boska", serif;
     font-weight: "";
-      color: white;
+    color: white;
   }
 
   .contact-image-1:hover {
@@ -1318,9 +1350,6 @@
     box-shadow: 4px 5px 17px -4px #000000;
     font-weight: 500;
     cursor: pointer;
-   
-
-   
   }
 
   .contact-image-1:active {
@@ -1329,10 +1358,7 @@
   }
 
   .info {
-   
-
     color: rgba(180, 35, 35, 0.165);
-    
 
     padding: 1.4em;
 
@@ -1345,7 +1371,7 @@
 
   .sub-info {
     color: rgba(0, 0, 0, 0.309);
-    font-family: "Boska", serif;;
+    font-family: "Boska", serif;
     font-size: 5vw;
     padding: 2.4em;
     height: 0vh;
@@ -1496,7 +1522,4 @@
     text-align: center;
     padding: 1em;
   }
-
-
-
 }
