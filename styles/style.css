@@ -366,16 +366,17 @@
   }
 
   .site-head {
-    font-family: "Cherry Swash", serif;
+    color: rgba(0, 0, 0, 0.691);
+    font-family: "Boska", serif;
     padding: 0.9em;
-    color: rgba(255, 0, 0, 0.691);
+    
   }
 
 
   .slider {
     position: relative;
-    background: #eef0f4;
-    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+
+  
     margin: auto;
     overflow: hidden;
     padding: 4em;
@@ -398,11 +399,11 @@
   .slider button:hover {
     color: #ff0000;
     transform: scale(1.1);
-    box-shadow: 4px 5px 17px -4px #000000;
+
   }
 
   .slider button:active {
-    box-shadow: 5px 5px 17px 5px #ff0000;
+   
     transform: translateY(4px);
   }
   .pre-btn {
@@ -1224,10 +1225,12 @@
   }
 
   .site-head {
-    font-family: "Cherry Swash", serif;
+   font-family: "Boska", serif;
     font-size: 1em;
-    padding: 1em;
-    color: rgba(255, 0, 0, 0.691);
+    padding: 1.2em;
+    color: rgba(0, 0, 0, 0.691);
+    font-weight: bold;
+   
   }
 
 
@@ -1237,11 +1240,11 @@
    
   .slider {
     position: relative;
-    background: #eef0f4;
-    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+   
+
     margin: auto;
     overflow: hidden;
-    padding: 4em;
+    padding: 1.3em;
   }
 
   .slider button {
@@ -1255,17 +1258,16 @@
     border-radius: 50%;
     cursor: pointer;
     padding: 0px 10px 0px 10px;
-    box-sizing: border-box;
-   
+  
   }
   .slider button:hover {
     color: #ff0000;
     transform: scale(1.1);
-    box-shadow: 4px 5px 17px -4px #000000;
+   
   }
 
   .slider button:active {
-    box-shadow: 5px 5px 17px 5px #ff0000;
+    
     transform: translateY(4px);
   }
   .pre-btn {
@@ -1301,6 +1303,9 @@
     
     width: 50%;
   }
+
+
+  
 
   /* FOR MOBILE VIDEO DEMO SITE */
   .video-section {
