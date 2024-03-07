@@ -370,6 +370,8 @@
     padding: 0.9em;
     color: rgba(255, 0, 0, 0.691);
   }
+
+
   .slider {
     position: relative;
     background: #eef0f4;
@@ -1226,6 +1228,78 @@
     font-size: 1em;
     padding: 1em;
     color: rgba(255, 0, 0, 0.691);
+  }
+
+
+
+
+
+   
+  .slider {
+    position: relative;
+    background: #eef0f4;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+    margin: auto;
+    overflow: hidden;
+    padding: 4em;
+  }
+
+  .slider button {
+    font-size: 1.7em;
+    background-color: rgba(254, 254, 254, 0.345);
+    color: #000000;
+    outline: none;
+    position: absolute;
+    border: none;
+    top: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box;
+   
+  }
+  .slider button:hover {
+    color: #ff0000;
+    transform: scale(1.1);
+    box-shadow: 4px 5px 17px -4px #000000;
+  }
+
+  .slider button:active {
+    box-shadow: 5px 5px 17px 5px #ff0000;
+    transform: translateY(4px);
+  }
+  .pre-btn {
+    left: 0.3em;
+     
+    
+  }
+
+  .next-btn {
+    right: 0.3em;
+  }
+
+  .slider img {
+    width: 100%;
+    border-radius: 5px;
+    display: none;
+  }
+ 
+
+  img.displaySlide {
+   display: block;
+  }
+
+  
+ 
+  .site-image{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em;
+  }
+  img.sample-images{
+    
+    width: 50%;
   }
 
   /* FOR MOBILE VIDEO DEMO SITE */
