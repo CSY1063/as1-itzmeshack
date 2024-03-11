@@ -19,8 +19,11 @@ let maintext = document.getElementById("text-one");
 let secondtext = document.getElementById("text-two");
 for_nav = document.querySelectorAll(".p-nav-links");
 
-/**light mode */
+/**light mode  */
+
 function suntoggle() {
+
+
   /** mobile */
   if (window.innerWidth < 1028) {
     x.style.backgroundColor = "#ffffff";
@@ -50,7 +53,10 @@ function suntoggle() {
 }
 
 /**dark mode  */
+
 function moontoggle() {
+
+
   /** mobile */
   if (window.innerWidth < 1028) {
     x.style.backgroundColor = "#000000";
@@ -79,6 +85,10 @@ function moontoggle() {
   }
 }
 
+
+
+
+
 /** on click function for submit button in contact file */
 
 function submit() {
@@ -93,7 +103,7 @@ let intervalid = null;
 
 //initializeSlider();
 
-document.addEventListener("DOMContentLoaded", initializeSlider);
+document.addEventListener('DOMContentLoaded',initializeSlider);
 
 function initializeSlider() {
   if (slides.length > 0) {
