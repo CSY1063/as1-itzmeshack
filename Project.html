@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portforlio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script defer src="javascript/index_2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet" />
+    <link rel="icon" type="img/jpg" href="images/favicon_io/favicon-32x32.png" />
+    <link href="https://api.fontshare.com/v2/css?f=cabinet-grotesk@100,400,300,200&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap" rel="stylesheet">
+  
+
+</head>
+
+  <body id="clicked">
+    <header>
+      
+ 
+
+      <nav class="nav">
+        <div class="m-logo">
+          <a class="link-logo" href="index.html">
+            <h1 class="logo">M</h1>
+          </a>
+        </div>
+  
+        <div onclick="closemenu()" id="sidemenu" class="mobile-nav">
+          <ul class="nav-links">
+            <li class="links">
+              <a class="all-links" href="index.html">
+                <p class="p-nav-links">01. Home</p>
+              </a>
+            </li>
+  
+            <li class="links">
+              <a  class="all-links " href="Project.html">
+                <p class="p-nav-links">02. Project</p>
+              </a>
+            </li>
+
+            <li class="links">
+              <a class="all-links" href="Sitereport.html">
+                <p class="p-nav-links">03. Site report</p>
+              </a>
+            </li>
+            <li class="links">
+              <a class="all-links" href="Video_demo.html">
+                <p class="p-nav-links">04. Video demo</p>
+              </a>
+            </li>
+            
+            <li class="links">
+              <a class="all-links" href="Contact.html">
+                <p id="mobile-element" class="p-nav-links">05. Contact</p>
+              </a>
+            </li>
+  
+            <!-- add close icons code here-->
+          </ul>
+          <img
+            onclick="closemenu()"
+            src="images/mobile_image/x.png"
+            class="close-menu"
+            alt="closehamburger-menu"
+          />
+        </div>
+        <!-- add open(i.e hamburger-menu) icons code here-->
+        <img
+          onclick="openmenu()"
+          src="images/mobile_image/menu-alt-2.png"
+          class="open-menu"
+          alt="hamburger-menu"
+        />
+      </nav>
+
+    </header>
+  
+    <div class="toggle-container">
+      <div id="theme1" class="theme-mode">
+        <i
+          onclick="suntoggle()"
+          id="sun-toggle"
+          class="fa-regular fa-sun icon-sun"
+        ></i>
+      </div>
+      <div class="theme-mode2">
+        <i
+          onclick="moontoggle()"
+          id="moon-toggle"
+          class="fa-regular fa-moon icon-moon"
+        ></i>
+      </div>
+    </div>
+
+    <main class="project-wrap">
+      <div class="wrapping">
+        <img class="img-project" src="images/background/3d_image.png" alt="">
+        <div class="head-project ">
+          <h4 class="head-project-2">P</h4>
+          <p class="simple-1">roject 1. </p>
+        </div>
+
+        <p class="descript">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita incidunt numquam omnis fugit consequuntur ea similique, quia quae molestiae ratione. Vero nulla itaque blanditiis odio asperiores et minus atque ratione!
+          Aut a reiciendis esse adipisci sunt vel iusto dignissimos earum suscipit repellendus, vitae ipsa error iste debitis quo, qui eveniet reprehenderit eum quas ex molestias assumenda deserunt rem. Perferendis, quod.
+          Quam minima ab recusandae inventore, eligendi quos harum beatae dicta sit explicabo ratione, velit sapiente obcaecati enim soluta pariatur numquam incidunt aliquam, amet neque quas sint necessitatibus deleniti! Temporibus, dicta!
+        </p>
+      </div>
+      <div class="wrapping">
+        <img class="img-project" src="images/background/3d_image.png" alt="">
+        <div class="head-project ">
+          <h4 class="head-project-2">P</h4>
+          <p class="simple-2">roject 2. </p>
+        </div>
+
+
+        
+        <p class="descript">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita incidunt numquam omnis fugit consequuntur ea similique, quia quae molestiae ratione. Vero nulla itaque blanditiis odio asperiores et minus atque ratione!
+          Aut a reiciendis esse adipisci sunt vel iusto dignissimos earum suscipit repellendus, vitae ipsa error iste debitis quo, qui eveniet reprehenderit eum quas ex molestias assumenda deserunt rem. Perferendis, quod.
+          Quam minima ab recusandae inventore, eligendi quos harum beatae dicta sit explicabo ratione, velit sapiente obcaecati enim soluta pariatur numquam incidunt aliquam, amet neque quas sint necessitatibus deleniti! Temporibus, dicta!
+        </p>
+      </div>
+      <div class="wrapping">
+        <img class="img-project" src="images/background/3d_image.png" alt="">
+        <div class="head-project ">
+          <h4 class="head-project-2">P</h4>
+          <p class="simple-3">roject 3. </p>
+        </div>
+         
+       
+        <p class="descript">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita incidunt numquam omnis fugit consequuntur ea similique, quia quae molestiae ratione. Vero nulla itaque blanditiis odio asperiores et minus atque ratione!
+          Aut a reiciendis esse adipisci sunt vel iusto dignissimos earum suscipit repellendus, vitae ipsa error iste debitis quo, qui eveniet reprehenderit eum quas ex molestias assumenda deserunt rem. Perferendis, quod.
+          Quam minima ab recusandae inventore, eligendi quos harum beatae dicta sit explicabo ratione, velit sapiente obcaecati enim soluta pariatur numquam incidunt aliquam, amet neque quas sint necessitatibus deleniti! Temporibus, dicta!
+        </p>
+      </div>
+      <div class="wrapping">
+        <img class="img-project" src="images/background/3d_image.png" alt="">
+        <div class="head-project ">
+          <h4 class="head-project-2">P</h4>
+          <p class="simple-4">roject 4. </p>
+        </div>        
+        <p class="descript">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita incidunt numquam omnis fugit consequuntur ea similique, quia quae molestiae ratione. Vero nulla itaque blanditiis odio asperiores et minus atque ratione!
+          Aut a reiciendis esse adipisci sunt vel iusto dignissimos earum suscipit repellendus, vitae ipsa error iste debitis quo, qui eveniet reprehenderit eum quas ex molestias assumenda deserunt rem. Perferendis, quod.
+          Quam minima ab recusandae inventore, eligendi quos harum beatae dicta sit explicabo ratione, velit sapiente obcaecati enim soluta pariatur numquam incidunt aliquam, amet neque quas sint necessitatibus deleniti! Temporibus, dicta!
+        </p>
+      </div>
+
+
+      <div class="wrapping">
+        <img class="img-project" src="images/background/3d_image.png" alt="">
+        <div class="head-project ">
+          <h4 class="head-project-2">P</h4>
+          <p class="simple-3">roject 5. </p>
+        </div>
+
+        <p class="descript">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita incidunt numquam omnis fugit consequuntur ea similique, quia quae molestiae ratione. Vero nulla itaque blanditiis odio asperiores et minus atque ratione!
+          Aut a reiciendis esse adipisci sunt vel iusto dignissimos earum suscipit repellendus, vitae ipsa error iste debitis quo, qui eveniet reprehenderit eum quas ex molestias assumenda deserunt rem. Perferendis, quod.
+          Quam minima ab recusandae inventore, eligendi quos harum beatae dicta sit explicabo ratione, velit sapiente obcaecati enim soluta pariatur numquam incidunt aliquam, amet neque quas sint necessitatibus deleniti! Temporibus, dicta!
+          
+        </p>
+      </div>
+    </main>
+
+
+    <div class="footer">
+      <footer class="footer-container">
+        <a class="linkdin-links" href="https://www.linkedin.com/in/meshack-omonzogbe-972403279/">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a class="insta-links" href="https://www.instagram.com/_kingmeshack/">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a class="git-links" href="https://github.com/CSY1063/as1-itzmeshack">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </footer>
+      <div class="copy-container">
+        <div class="copywright">
+          <p class="copy-logo">&copy;</p>
+          <h6 class="name">Meshack 2027 All right reserved.</h6>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

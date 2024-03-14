@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 
 <head>
   <meta charset="UTF-8" />
@@ -13,13 +11,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet" />
-  <link rel="icon" type="img/jpg" href="images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="img/jpg" href="images/favicon_io/favicon-32x32.png" />
+  <link href="https://api.fontshare.com/v2/css?f=cabinet-grotesk@100,400,300,200&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f=cabinet-grotesk@100,400,300,200&f=boska@300&display=swap"
+    rel="stylesheet">
 </head>
 
-<body  id="clicked">
+<body id="clicked">
   <header>
-
-
+      
+ 
 
     <nav class="nav">
       <div class="m-logo">
@@ -27,8 +35,6 @@
           <h1 class="logo">M</h1>
         </a>
       </div>
-
-
 
       <div onclick="closemenu()" id="sidemenu" class="mobile-nav">
         <ul class="nav-links">
@@ -43,18 +49,18 @@
               <p class="p-nav-links">02. Project</p>
             </a>
           </li>
-
           <li class="links">
             <a class="all-links" href="Sitereport.html">
               <p class="p-nav-links">03. Site report</p>
             </a>
           </li>
+
           <li class="links">
             <a class="all-links" href="Video_demo.html">
               <p class="p-nav-links">04. Video demo</p>
             </a>
           </li>
-         
+          
           <li class="links">
             <a class="all-links" href="Contact.html">
               <p id="mobile-element" class="p-nav-links">05. Contact</p>
@@ -63,49 +69,64 @@
 
           <!-- add close icons code here-->
         </ul>
-        <img onclick="closemenu()" src="images/mobile_image/x.png" class="close-menu" alt="closehamburger-menu" />
+        <img
+          onclick="closemenu()"
+          src="images/mobile_image/x.png"
+          class="close-menu"
+          alt="closehamburger-menu"
+        />
       </div>
-
       <!-- add open(i.e hamburger-menu) icons code here-->
-      <img onclick="openmenu()" src="images/mobile_image/menu-alt-2.png" class="open-menu" alt="hamburger-menu" />
+      <img
+        onclick="openmenu()"
+        src="images/mobile_image/menu-alt-2.png"
+        class="open-menu"
+        alt="hamburger-menu"
+      />
     </nav>
-
 
   </header>
 
   <div class="toggle-container">
+
     <div id="theme1" class="theme-mode">
+
+
       <i onclick="suntoggle()" id="sun-toggle" class="fa-regular fa-sun icon-sun"></i>
+
+
+
     </div>
     <div class="theme-mode2">
+
       <i onclick="moontoggle()" id="moon-toggle" class="fa-regular fa-moon icon-moon"></i>
+
+
+
+
     </div>
+
+
+
   </div>
+  <main class="video-section">
+    <h1 class="main-head-site">VIDEO INFORMATION</h1>
 
-  <main class="section-one">
-    <div class="section-container">
-      <div class="text-one">
-        <p id="text-one" class="for-text-one">
-          As a Software engineer, Frontend Developr & Designer I design and code
-          beautiful simple things, and I love what I do.
-        </p>
-      </div>
-      <div class="for-image-containter">
-        <img class="image-one" src="images/background/3d_image.png" alt="a human 3d face" />
-      </div>
-      <div class="text-two">
-        <p id="text-two" class="for-text-two">
-          Hi, I'm Meshack. Nice to meet you. Since beginning my journey as a
-          software engineer two years ago. I've worked for agencies, consulted
-          for startups, and collaborated with talented people to create digital
-          products for both business and consumer use. I'm quietly confident,
-          naturally Curious, and perpetually working on improving my creativity.
-          If you click above links you will able to learn more about me.
-        </p>
-      </div>
+    <div class="descript-container">
+
+
+      <p class="video-descript">on this video below you will learn more about this site and 
+        other relevant infomations, you will also get to understand the backend code where I will 
+      go indepth to explain how certain element behaves, and why I chose that approach.   </p>
+
+       <div class="video-class">
+        <iframe class="video-container" width="560" height="315" src="https://www.youtube.com/embed/sWumw4VsfoE?si=S6TxPMYk_Oqs4OKc" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       </div>
+
     </div>
-  </main>
 
+
+  </main>
   <div class="footer">
     <footer class="footer-container">
       <a class="linkdin-links" href="https://www.linkedin.com/in/meshack-omonzogbe-972403279/">
@@ -125,6 +146,11 @@
       </div>
     </div>
   </div>
+
+  
+   
+  
+
 </body>
 
 </html>
