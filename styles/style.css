@@ -30,6 +30,8 @@
 
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    scroll-behavior: smooth;
+    scroll-margin-top: 50px;
   }
 
   .open-menu {
